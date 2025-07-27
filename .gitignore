@@ -30,3 +30,7 @@ vite.config.ts.timestamp-*
 frontend/src/lib/components/cv.txt
 
 .log
+
+
+/dist
+/build
