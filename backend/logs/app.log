@@ -1,0 +1,288 @@
+{
+  message: 'Telegram сервис инициализирован',
+  level: 'info',
+  timestamp: '2025-05-23 18:58:59'
+}
+{
+  message: 'Telegram сервис инициализирован',
+  level: 'info',
+  timestamp: '2025-05-23 19:01:04'
+}
+{
+  message: 'Telegram сервис инициализирован',
+  level: 'info',
+  timestamp: '2025-05-23 19:01:09'
+}
+{
+  message: '🔧 Переменные окружения загружены',
+  level: 'info',
+  timestamp: '2025-05-23 19:01:38'
+}
+{
+  message: '🔧 Переменные окружения загружены',
+  level: 'info',
+  timestamp: '2025-05-23 19:02:08'
+}
+{
+  message: '🔧 Переменные окружения загружены',
+  level: 'info',
+  timestamp: '2025-05-23 19:02:49'
+}
+{
+  message: '⚙️ Настройка Express приложения...',
+  level: 'info',
+  timestamp: '2025-05-23 19:02:49'
+}
+{
+  message: '🛡️ Helmet настроен',
+  level: 'info',
+  timestamp: '2025-05-23 19:02:49'
+}
+{
+  message: '🌐 CORS настроен',
+  level: 'info',
+  timestamp: '2025-05-23 19:02:49'
+}
+{
+  message: '📝 JSON middleware настроен',
+  level: 'info',
+  timestamp: '2025-05-23 19:02:49'
+}
+{
+  message: '🔍 Security logger настроен',
+  level: 'info',
+  timestamp: '2025-05-23 19:02:49'
+}
+{
+  message: '🎮 Создание ChatController...',
+  level: 'info',
+  timestamp: '2025-05-23 19:02:49'
+}
+{
+  message: 'Telegram сервис инициализирован',
+  level: 'info',
+  timestamp: '2025-05-23 19:02:49'
+}
+{
+  message: '✅ ChatController создан успешно',
+  level: 'info',
+  timestamp: '2025-05-23 19:02:49'
+}
+{
+  message: '🛣️ Маршруты настроены',
+  level: 'info',
+  timestamp: '2025-05-23 19:02:49'
+}
+{
+  message: '🚀 Запуск сервера...',
+  level: 'info',
+  timestamp: '2025-05-23 19:02:49'
+}
+{
+  message: '🔚 Конец инициализации сервера',
+  level: 'info',
+  timestamp: '2025-05-23 19:02:49'
+}
+{
+  message: '🚀 Сервер запущен на порту 3000',
+  level: 'info',
+  timestamp: '2025-05-23 19:02:49'
+}
+{
+  message: '📝 Environment: development',
+  level: 'info',
+  timestamp: '2025-05-23 19:02:49'
+}
+{
+  message: '🔒 CORS origins: ["http://localhost:5177","http://localhost:3000"]',
+  level: 'info',
+  timestamp: '2025-05-23 19:02:49'
+}
+{
+  message: '📖 API документация:',
+  level: 'info',
+  timestamp: '2025-05-23 19:02:49'
+}
+{
+  message: '   POST /api/chat/start - Начать чат',
+  level: 'info',
+  timestamp: '2025-05-23 19:02:49'
+}
+{
+  message: '   POST /api/chat/message - Отправить сообщение',
+  level: 'info',
+  timestamp: '2025-05-23 19:02:49'
+}
+{
+  message: '   POST /awp - AG-UI endpoint',
+  level: 'info',
+  timestamp: '2025-05-23 19:02:49'
+}
+{
+  message: '   GET  /health - Health check',
+  level: 'info',
+  timestamp: '2025-05-23 19:02:49'
+}
+{
+  message: '   GET  /stats - Статистика',
+  level: 'info',
+  timestamp: '2025-05-23 19:02:49'
+}
+{
+  message: '❌ Ошибка запуска сервера: listen EADDRINUSE: address already in use :::3000',
+  stack: 'Error: listen EADDRINUSE: address already in use :::3000\n' +
+    '    at Server.setupListenHandle [as _listen2] (node:net:1939:16)\n' +
+    '    at listenInCluster (node:net:1996:12)\n' +
+    '    at Server.listen (node:net:2101:7)\n' +
+    '    at Function.listen (/Users/null/projects/cv/backend/node_modules/express/lib/application.js:605:24)\n' +
+    '    at Object.<anonymous> (/Users/null/projects/cv/backend/dist/server.js:122:5)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1734:14)\n' +
+    '    at Object..js (node:internal/modules/cjs/loader:1899:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1469:32)\n' +
+    '    at Function._load (node:internal/modules/cjs/loader:1286:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:322:14)',
+  code: 'EADDRINUSE',
+  level: 'error',
+  timestamp: '2025-05-23 19:02:49'
+}
+{
+  message: 'SIGINT получен, завершаем сервер...',
+  level: 'info',
+  timestamp: '2025-05-23 19:03:19'
+}
+{
+  message: '🔧 Переменные окружения загружены',
+  level: 'info',
+  timestamp: '2025-05-31 16:55:41'
+}
+{
+  message: '⚙️ Настройка Express приложения...',
+  level: 'info',
+  timestamp: '2025-05-31 16:55:41'
+}
+{
+  message: '🛡️ Helmet настроен',
+  level: 'info',
+  timestamp: '2025-05-31 16:55:41'
+}
+{
+  message: '🌐 CORS настроен',
+  level: 'info',
+  timestamp: '2025-05-31 16:55:41'
+}
+{
+  message: '📝 JSON middleware настроен',
+  level: 'info',
+  timestamp: '2025-05-31 16:55:41'
+}
+{
+  message: '🔍 Security logger настроен',
+  level: 'info',
+  timestamp: '2025-05-31 16:55:41'
+}
+{
+  message: '🎮 Создание ChatController...',
+  level: 'info',
+  timestamp: '2025-05-31 16:55:41'
+}
+{
+  message: 'Telegram сервис инициализирован',
+  level: 'info',
+  timestamp: '2025-05-31 16:55:42'
+}
+{
+  message: '✅ ChatController создан успешно',
+  level: 'info',
+  timestamp: '2025-05-31 16:55:42'
+}
+{
+  message: '🛣️ Маршруты настроены',
+  level: 'info',
+  timestamp: '2025-05-31 16:55:42'
+}
+{
+  message: '🚀 Запуск сервера...',
+  level: 'info',
+  timestamp: '2025-05-31 16:55:42'
+}
+{
+  message: '🔚 Конец инициализации сервера',
+  level: 'info',
+  timestamp: '2025-05-31 16:55:42'
+}
+{
+  message: '🚀 Сервер запущен на порту 3000',
+  level: 'info',
+  timestamp: '2025-05-31 16:55:42'
+}
+{
+  message: '📝 Environment: development',
+  level: 'info',
+  timestamp: '2025-05-31 16:55:42'
+}
+{
+  message: '🔒 CORS origins: ["http://localhost:5177","http://localhost:3000"]',
+  level: 'info',
+  timestamp: '2025-05-31 16:55:42'
+}
+{
+  message: '📖 API документация:',
+  level: 'info',
+  timestamp: '2025-05-31 16:55:42'
+}
+{
+  message: '   POST /api/chat/start - Начать чат',
+  level: 'info',
+  timestamp: '2025-05-31 16:55:42'
+}
+{
+  message: '   POST /api/chat/message - Отправить сообщение',
+  level: 'info',
+  timestamp: '2025-05-31 16:55:42'
+}
+{
+  message: '   POST /awp - AG-UI endpoint',
+  level: 'info',
+  timestamp: '2025-05-31 16:55:42'
+}
+{
+  message: '   GET  /health - Health check',
+  level: 'info',
+  timestamp: '2025-05-31 16:55:42'
+}
+{
+  message: '   GET  /stats - Статистика',
+  level: 'info',
+  timestamp: '2025-05-31 16:55:42'
+}
+{
+  userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36',
+  referer: 'http://localhost:5173/chat',
+  body: { fingerprint: 'swCfQRUFh9NTWRBGoJ/AfI8LmmZgojVAAAAABJRU5ErkJggg==' },
+  level: 'info',
+  message: 'Request: POST /api/chat/start from ::1',
+  timestamp: '2025-05-31 16:55:48'
+}
+{
+  type: 'CHAT_SESSION_STARTED',
+  sessionId: '20096e8c-599a-4b21-a125-f80871b4fbe7',
+  ip: '::1',
+  timestamp: '2025-05-31 16:55:48',
+  level: 'info',
+  message: 'Chat session started'
+}
+{
+  message: 'Отправка запроса в OpenAI, stage: greeting, messages: 0',
+  level: 'info',
+  timestamp: '2025-05-31 16:55:48'
+}
+{
+  message: 'Получен ответ от OpenAI: Привет! Я - ассистент разработчика, и рад приветствовать вас на нашем сайте. Как я могу помочь вам с...',
+  level: 'info',
+  timestamp: '2025-05-31 16:55:50'
+}
+{
+  message: 'Чат начат для сессии: 20096e8c-599a-4b21-a125-f80871b4fbe7',
+  level: 'info',
+  timestamp: '2025-05-31 16:55:50'
+}

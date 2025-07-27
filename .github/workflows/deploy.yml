@@ -1,0 +1,154 @@
+name: CI/CD Pipeline
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build_and_push_frontend:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Set up QEMU
+        uses: docker/setup-qemu-action@v2
+
+      - name: Set up Docker Buildx
+        uses: docker/setup-buildx-action@v2
+
+      - name: Login to GitHub Container Registry
+        uses: docker/login-action@v2
+        with:
+          registry: ghcr.io
+          username: ${{ github.repository_owner }}
+          password: ${{ secrets.GHCR_TOKEN }}
+
+      - name: Build and push Frontend Docker image
+        uses: docker/build-push-action@v4
+        with:
+          context: ./frontend
+          push: true
+          tags: ghcr.io/${{ github.repository }}/frontend:latest
+
+  build_and_push_backend:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Set up QEMU
+        uses: docker/setup-qemu-action@v2
+
+      - name: Set up Docker Buildx
+        uses: docker/setup-buildx-action@v2
+
+      - name: Login to GitHub Container Registry
+        uses: docker/login-action@v2
+        with:
+          registry: ghcr.io
+          username: ${{ github.repository_owner }}
+          password: ${{ secrets.GHCR_TOKEN }}
+
+      - name: Build and push Backend Docker image
+        uses: docker/build-push-action@v4
+        with:
+          context: ./backend
+          push: true
+          tags: ghcr.io/${{ github.repository }}/backend:latest
+
+  deploy_to_vps:
+    needs: [build_and_push_frontend, build_and_push_backend]
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Create .env file
+        run: |
+          echo "OPENAI_API_KEY=${{ secrets.OPENAI_API_KEY }}" > .env
+          echo "AI_MODEL=${{ secrets.AI_MODEL }}" >> .env
+          echo "TELEGRAM_BOT_TOKEN=${{ secrets.TELEGRAM_BOT_TOKEN }}" >> .env
+          echo "TELEGRAM_CHAT_ID=${{ secrets.TELEGRAM_CHAT_ID }}" >> .env
+          echo "PORT=${{ secrets.PORT }}" >> .env
+          echo "NODE_ENV=${{ secrets.NODE_ENV }}" >> .env
+          echo "API_BASE_URL=${{ secrets.API_BASE_URL }}" >> .env
+          echo "RATE_LIMIT_REQUESTS=${{ secrets.RATE_LIMIT_REQUESTS }}" >> .env
+          echo "RATE_LIMIT_WINDOW_HOURS=${{ secrets.RATE_LIMIT_WINDOW_HOURS }}" >> .env
+          echo "RATE_LIMIT_BLOCK_HOURS=${{ secrets.RATE_LIMIT_BLOCK_HOURS }}" >> .env
+          echo "RATE_LIMIT_MAX_HITS=${{ secrets.RATE_LIMIT_MAX_HITS }}" >> .env
+          echo "CORS_ORIGIN=${{ secrets.CORS_ORIGIN }}" >> .env
+          echo "JWT_SECRET=${{ secrets.JWT_SECRET }}" >> .env
+          echo "SESSION_SECRET=${{ secrets.SESSION_SECRET }}" >> .env
+          echo "ENCRYPTION_KEY=${{ secrets.ENCRYPTION_KEY }}" >> .env
+          echo "HONEYPOT_FIELD_NAME=${{ secrets.HONEYPOT_FIELD_NAME }}" >> .env
+          echo "MIN_FORM_FILL_TIME=${{ secrets.MIN_FORM_FILL_TIME }}" >> .env
+          echo "MAX_FORM_FILL_TIME=${{ secrets.MAX_FORM_FILL_TIME }}" >> .env
+          echo "CAPTCHA_SECRET_KEY=${{ secrets.CAPTCHA_SECRET_KEY }}" >> .env
+          echo "LOG_LEVEL=${{ secrets.LOG_LEVEL }}" >> .env
+          echo "WEBHOOK_URL=${{ secrets.WEBHOOK_URL }}" >> .env
+          echo "ALERT_THRESHOLD=${{ secrets.ALERT_THRESHOLD }}" >> .env
+          echo "CHAT_TIMEOUT_MS=${{ secrets.CHAT_TIMEOUT_MS }}" >> .env
+          echo "MAX_MESSAGE_LENGTH=${{ secrets.MAX_MESSAGE_LENGTH }}" >> .env
+          echo "SYSTEM_PROMPT=\\"${{ secrets.SYSTEM_PROMPT }}\\"" >> .env # Экранируем кавычки для SYSTEM_PROMPT
+          echo "FRONTEND_URL=${{ secrets.FRONTEND_URL }}" >> .env
+        shell: bash
+
+      - name: Create remote directories on VPS
+        uses: appleboy/ssh-action@v0.1.5
+        with:
+          host: ${{ secrets.VPS_HOST }}
+          username: ${{ secrets.VPS_USER }}
+          key: ${{ secrets.VPS_SSH_KEY }}
+          port: 22
+          script: |
+            echo "INFO: Creating remote directories..."
+            # mkdir -p /home/deploy/nginx # Это создаст /home/deploy и /home/deploy/nginx
+
+      - name: Copy .env and docker-compose.yml to VPS
+        uses: appleboy/scp-action@v0.1.4 # Используем актуальную версию scp-action
+        with:
+          host: ${{ secrets.VPS_HOST }}
+          username: ${{ secrets.VPS_USER }}
+          key: ${{ secrets.VPS_SSH_KEY }}
+          port: 22
+          source: ".env,docker-compose.yml" # Копируем оба файла
+          target: "/home/deploy/"
+
+      - name: Copy nginx.conf to VPS
+        uses: appleboy/scp-action@v0.1.4
+        with:
+          host: ${{ secrets.VPS_HOST }}
+          username: ${{ secrets.VPS_USER }}
+          key: ${{ secrets.VPS_SSH_KEY }}
+          port: 22
+          source: "nginx/nginx.conf"
+          target: "/home/deploy/nginx/"
+
+      - name: Deploy services on VPS
+        uses: appleboy/ssh-action@v0.1.5
+        with:
+          host: ${{ secrets.VPS_HOST }}
+          username: ${{ secrets.VPS_USER }}
+          key: ${{ secrets.VPS_SSH_KEY }}
+          port: 22
+          script: |
+            set -e # Выход при любой ошибке
+
+            echo "INFO: Changing to deploy directory..."
+            cd /home/deploy
+            
+            echo "INFO: Logging into GHCR..."
+            echo ${{ secrets.GHCR_TOKEN }} | docker login ghcr.io -u ${{ github.repository_owner }} --password-stdin
+            
+            echo "INFO: Pulling latest images..."
+            docker-compose pull # Использует /home/deploy/docker-compose.yml и /home/deploy/.env
+            
+            echo "INFO: Stopping and removing old containers..."
+            docker-compose down
+            
+            echo "INFO: Starting new containers..."
+            docker-compose up -d
+            
+            echo "INFO: Cleaning up unused Docker images..."
+            docker image prune -f
+
+            echo "INFO: Deployment successful."

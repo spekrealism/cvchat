@@ -1,0 +1,45 @@
+{
+  "name": "cv-chat-backend",
+  "version": "1.0.0",
+  "description": "Backend для чата с визиткой с AG-UI поддержкой",
+  "main": "dist/server.js",
+  "scripts": {
+    "start": "node dist/server.js",
+    "dev": "nodemon --exec ts-node src/server.ts",
+    "build": "tsc",
+    "type-check": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@ag-ui/core": "^0.0.28",
+    "@ag-ui/encoder": "^0.0.28",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^5.1.0",
+    "express-rate-limit": "^7.5.0",
+    "grammy": "^1.36.1",
+    "helmet": "^8.1.0",
+    "joi": "^17.13.3",
+    "openai": "^4.103.0",
+    "rate-limiter-flexible": "^7.1.1",
+    "uuid": "^11.1.0",
+    "winston": "^3.17.0"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^5.0.2",
+    "@types/node": "^22.15.21",
+    "@types/uuid": "^10.0.0",
+    "nodemon": "^3.1.10",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.3"
+  },
+  "keywords": [
+    "chat",
+    "ai",
+    "cv",
+    "telegram",
+    "ag-ui"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}

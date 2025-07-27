@@ -1,0 +1,17 @@
+{
+  message: '❌ Ошибка запуска сервера: listen EADDRINUSE: address already in use :::3000',
+  stack: 'Error: listen EADDRINUSE: address already in use :::3000\n' +
+    '    at Server.setupListenHandle [as _listen2] (node:net:1939:16)\n' +
+    '    at listenInCluster (node:net:1996:12)\n' +
+    '    at Server.listen (node:net:2101:7)\n' +
+    '    at Function.listen (/Users/null/projects/cv/backend/node_modules/express/lib/application.js:605:24)\n' +
+    '    at Object.<anonymous> (/Users/null/projects/cv/backend/dist/server.js:122:5)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1734:14)\n' +
+    '    at Object..js (node:internal/modules/cjs/loader:1899:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1469:32)\n' +
+    '    at Function._load (node:internal/modules/cjs/loader:1286:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:322:14)',
+  code: 'EADDRINUSE',
+  level: 'error',
+  timestamp: '2025-05-23 19:02:49'
+}

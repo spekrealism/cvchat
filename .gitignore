@@ -1,0 +1,32 @@
+node_modules
+
+# Output
+.cursor
+.output
+.vercel
+.netlify
+.wrangler
+/.svelte-kit
+/build
+
+# OS
+.DS_Store
+Thumbs.db
+docker-compose.local.yml
+
+# Env
+local.env
+.env
+.env.*
+!.env.example
+!.env.test
+src/lib/components/cv.txt
+cloud-init.yaml
+
+# Vite
+vite.config.js.timestamp-*
+vite.config.ts.timestamp-*
+
+frontend/src/lib/components/cv.txt
+
+.log

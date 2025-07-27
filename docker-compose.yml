@@ -1,0 +1,35 @@
+services:
+  frontend:
+    image: ghcr.io/spekrealism/cv/frontend:latest
+    restart: always
+    networks:
+      - app-network
+    depends_on:
+      - backend
+  
+  backend:
+    image: ghcr.io/spekrealism/cv/backend:latest
+    restart: always
+    env_file:
+      - .env
+    networks:
+      - app-network
+
+  nginx:
+    image: nginx:stable
+    volumes:
+      - ./nginx/nginx.conf:/etc/nginx/nginx.conf:ro
+      - /tmp/letsencrypt:/tmp/letsencrypt:ro
+      - /etc/letsencrypt:/etc/letsencrypt:ro
+    ports:
+      - "80:80"
+      - "443:443"
+    depends_on:
+      - frontend
+      - backend
+    networks:
+      - app-network
+
+networks:
+  app-network:
+    driver: bridge 

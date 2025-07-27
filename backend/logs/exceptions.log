@@ -1,0 +1,2958 @@
+{
+  error: [96msrc/services/telegram.service.ts[0m:[93m7[0m:[93m11[0m - [91merror[0m[90m TS2564: [0mProperty 'chatId' has no initializer and is not definitely assigned in the constructor.
+  
+  [7m7[0m   private chatId: string;
+  [7m [0m [91m          ~~~~~~[0m
+  ,
+  level: 'error',
+  message: 'uncaughtException: ⨯ Unable to compile TypeScript:\n' +
+    "\x1B[96msrc/services/telegram.service.ts\x1B[0m:\x1B[93m7\x1B[0m:\x1B[93m11\x1B[0m - \x1B[91merror\x1B[0m\x1B[90m TS2564: \x1B[0mProperty 'chatId' has no initializer and is not definitely assigned in the constructor.\n" +
+    '\n' +
+    '\x1B[7m7\x1B[0m   private chatId: string;\n' +
+    '\x1B[7m \x1B[0m \x1B[91m          ~~~~~~\x1B[0m\n' +
+    '\n' +
+    'TSError: ⨯ Unable to compile TypeScript:\n' +
+    "\x1B[96msrc/services/telegram.service.ts\x1B[0m:\x1B[93m7\x1B[0m:\x1B[93m11\x1B[0m - \x1B[91merror\x1B[0m\x1B[90m TS2564: \x1B[0mProperty 'chatId' has no initializer and is not definitely assigned in the constructor.\n" +
+    '\n' +
+    '\x1B[7m7\x1B[0m   private chatId: string;\n' +
+    '\x1B[7m \x1B[0m \x1B[91m          ~~~~~~\x1B[0m\n' +
+    '\n' +
+    '    at createTSError (/Users/null/projects/cv/backend/node_modules/ts-node/src/index.ts:859:12)\n' +
+    '    at reportTSError (/Users/null/projects/cv/backend/node_modules/ts-node/src/index.ts:863:19)\n' +
+    '    at getOutput (/Users/null/projects/cv/backend/node_modules/ts-node/src/index.ts:1077:36)\n' +
+    '    at Object.compile (/Users/null/projects/cv/backend/node_modules/ts-node/src/index.ts:1433:41)\n' +
+    '    at Module.m._compile (/Users/null/projects/cv/backend/node_modules/ts-node/src/index.ts:1617:30)\n' +
+    '    at loadTS (node:internal/modules/cjs/loader:1826:10)\n' +
+    '    at Object.require.extensions.<computed> [as .ts] (/Users/null/projects/cv/backend/node_modules/ts-node/src/index.ts:1621:12)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1469:32)\n' +
+    '    at Function._load (node:internal/modules/cjs/loader:1286:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:322:14)',
+  stack: 'TSError: ⨯ Unable to compile TypeScript:\n' +
+    "\x1B[96msrc/services/telegram.service.ts\x1B[0m:\x1B[93m7\x1B[0m:\x1B[93m11\x1B[0m - \x1B[91merror\x1B[0m\x1B[90m TS2564: \x1B[0mProperty 'chatId' has no initializer and is not definitely assigned in the constructor.\n" +
+    '\n' +
+    '\x1B[7m7\x1B[0m   private chatId: string;\n' +
+    '\x1B[7m \x1B[0m \x1B[91m          ~~~~~~\x1B[0m\n' +
+    '\n' +
+    '    at createTSError (/Users/null/projects/cv/backend/node_modules/ts-node/src/index.ts:859:12)\n' +
+    '    at reportTSError (/Users/null/projects/cv/backend/node_modules/ts-node/src/index.ts:863:19)\n' +
+    '    at getOutput (/Users/null/projects/cv/backend/node_modules/ts-node/src/index.ts:1077:36)\n' +
+    '    at Object.compile (/Users/null/projects/cv/backend/node_modules/ts-node/src/index.ts:1433:41)\n' +
+    '    at Module.m._compile (/Users/null/projects/cv/backend/node_modules/ts-node/src/index.ts:1617:30)\n' +
+    '    at loadTS (node:internal/modules/cjs/loader:1826:10)\n' +
+    '    at Object.require.extensions.<computed> [as .ts] (/Users/null/projects/cv/backend/node_modules/ts-node/src/index.ts:1621:12)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1469:32)\n' +
+    '    at Function._load (node:internal/modules/cjs/loader:1286:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:322:14)',
+  exception: true,
+  date: 'Fri May 23 2025 17:55:50 GMT+0700 (Indochina Time)',
+  process: {
+    pid: 41327,
+    uid: 501,
+    gid: 20,
+    cwd: '/Users/null/projects/cv/backend',
+    execPath: '/opt/homebrew/Cellar/node/23.10.0_1/bin/node',
+    version: 'v23.10.0',
+    argv: [
+      '/Users/null/projects/cv/backend/node_modules/.bin/ts-node',
+      '/Users/null/projects/cv/backend/src/server.ts',
+      'src/server.ts'
+    ],
+    memoryUsage: {
+      rss: 236519424,
+      heapTotal: 167084032,
+      heapUsed: 145927480,
+      external: 5782805,
+      arrayBuffers: 2578591
+    }
+  },
+  os: {
+    loadavg: [ 11.5595703125, 5.9326171875, 3.99951171875 ],
+    uptime: 1542421
+  },
+  trace: [
+    {
+      column: 12,
+      file: '/Users/null/projects/cv/backend/node_modules/ts-node/src/index.ts',
+      function: 'createTSError',
+      line: 859,
+      method: null,
+      native: false
+    },
+    {
+      column: 19,
+      file: '/Users/null/projects/cv/backend/node_modules/ts-node/src/index.ts',
+      function: 'reportTSError',
+      line: 863,
+      method: null,
+      native: false
+    },
+    {
+      column: 36,
+      file: '/Users/null/projects/cv/backend/node_modules/ts-node/src/index.ts',
+      function: 'getOutput',
+      line: 1077,
+      method: null,
+      native: false
+    },
+    {
+      column: 41,
+      file: '/Users/null/projects/cv/backend/node_modules/ts-node/src/index.ts',
+      function: 'Object.compile',
+      line: 1433,
+      method: 'compile',
+      native: false
+    },
+    {
+      column: 30,
+      file: '/Users/null/projects/cv/backend/node_modules/ts-node/src/index.ts',
+      function: 'Module.m._compile',
+      line: 1617,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'loadTS',
+      line: 1826,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: '/Users/null/projects/cv/backend/node_modules/ts-node/src/index.ts',
+      function: 'Object.require.extensions.<computed> [as .ts]',
+      line: 1621,
+      method: 'ts]',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1469,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Function._load',
+      line: 1286,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:diagnostics_channel',
+      function: 'TracingChannel.traceSync',
+      line: 322,
+      method: 'traceSync',
+      native: false
+    }
+  ],
+  timestamp: '2025-05-23 17:55:50'
+}
+{
+  error: [96msrc/services/telegram.service.ts[0m:[93m7[0m:[93m11[0m - [91merror[0m[90m TS2564: [0mProperty 'chatId' has no initializer and is not definitely assigned in the constructor.
+  
+  [7m7[0m   private chatId: string;
+  [7m [0m [91m          ~~~~~~[0m
+  ,
+  level: 'error',
+  message: 'uncaughtException: ⨯ Unable to compile TypeScript:\n' +
+    "\x1B[96msrc/services/telegram.service.ts\x1B[0m:\x1B[93m7\x1B[0m:\x1B[93m11\x1B[0m - \x1B[91merror\x1B[0m\x1B[90m TS2564: \x1B[0mProperty 'chatId' has no initializer and is not definitely assigned in the constructor.\n" +
+    '\n' +
+    '\x1B[7m7\x1B[0m   private chatId: string;\n' +
+    '\x1B[7m \x1B[0m \x1B[91m          ~~~~~~\x1B[0m\n' +
+    '\n' +
+    'TSError: ⨯ Unable to compile TypeScript:\n' +
+    "\x1B[96msrc/services/telegram.service.ts\x1B[0m:\x1B[93m7\x1B[0m:\x1B[93m11\x1B[0m - \x1B[91merror\x1B[0m\x1B[90m TS2564: \x1B[0mProperty 'chatId' has no initializer and is not definitely assigned in the constructor.\n" +
+    '\n' +
+    '\x1B[7m7\x1B[0m   private chatId: string;\n' +
+    '\x1B[7m \x1B[0m \x1B[91m          ~~~~~~\x1B[0m\n' +
+    '\n' +
+    '    at createTSError (/Users/null/projects/cv/backend/node_modules/ts-node/src/index.ts:859:12)\n' +
+    '    at reportTSError (/Users/null/projects/cv/backend/node_modules/ts-node/src/index.ts:863:19)\n' +
+    '    at getOutput (/Users/null/projects/cv/backend/node_modules/ts-node/src/index.ts:1077:36)\n' +
+    '    at Object.compile (/Users/null/projects/cv/backend/node_modules/ts-node/src/index.ts:1433:41)\n' +
+    '    at Module.m._compile (/Users/null/projects/cv/backend/node_modules/ts-node/src/index.ts:1617:30)\n' +
+    '    at loadTS (node:internal/modules/cjs/loader:1826:10)\n' +
+    '    at Object.require.extensions.<computed> [as .ts] (/Users/null/projects/cv/backend/node_modules/ts-node/src/index.ts:1621:12)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1469:32)\n' +
+    '    at Function._load (node:internal/modules/cjs/loader:1286:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:322:14)',
+  stack: 'TSError: ⨯ Unable to compile TypeScript:\n' +
+    "\x1B[96msrc/services/telegram.service.ts\x1B[0m:\x1B[93m7\x1B[0m:\x1B[93m11\x1B[0m - \x1B[91merror\x1B[0m\x1B[90m TS2564: \x1B[0mProperty 'chatId' has no initializer and is not definitely assigned in the constructor.\n" +
+    '\n' +
+    '\x1B[7m7\x1B[0m   private chatId: string;\n' +
+    '\x1B[7m \x1B[0m \x1B[91m          ~~~~~~\x1B[0m\n' +
+    '\n' +
+    '    at createTSError (/Users/null/projects/cv/backend/node_modules/ts-node/src/index.ts:859:12)\n' +
+    '    at reportTSError (/Users/null/projects/cv/backend/node_modules/ts-node/src/index.ts:863:19)\n' +
+    '    at getOutput (/Users/null/projects/cv/backend/node_modules/ts-node/src/index.ts:1077:36)\n' +
+    '    at Object.compile (/Users/null/projects/cv/backend/node_modules/ts-node/src/index.ts:1433:41)\n' +
+    '    at Module.m._compile (/Users/null/projects/cv/backend/node_modules/ts-node/src/index.ts:1617:30)\n' +
+    '    at loadTS (node:internal/modules/cjs/loader:1826:10)\n' +
+    '    at Object.require.extensions.<computed> [as .ts] (/Users/null/projects/cv/backend/node_modules/ts-node/src/index.ts:1621:12)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1469:32)\n' +
+    '    at Function._load (node:internal/modules/cjs/loader:1286:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:322:14)',
+  exception: true,
+  date: 'Fri May 23 2025 17:59:35 GMT+0700 (Indochina Time)',
+  process: {
+    pid: 42299,
+    uid: 501,
+    gid: 20,
+    cwd: '/Users/null/projects/cv/backend',
+    execPath: '/opt/homebrew/Cellar/node/23.10.0_1/bin/node',
+    version: 'v23.10.0',
+    argv: [
+      '/Users/null/projects/cv/backend/node_modules/.bin/ts-node',
+      '/Users/null/projects/cv/backend/src/server.ts',
+      'src/server.ts'
+    ],
+    memoryUsage: {
+      rss: 237174784,
+      heapTotal: 166559744,
+      heapUsed: 140553400,
+      external: 8335683,
+      arrayBuffers: 5111535
+    }
+  },
+  os: {
+    loadavg: [ 3.67333984375, 4.33740234375, 3.71923828125 ],
+    uptime: 1542646
+  },
+  trace: [
+    {
+      column: 12,
+      file: '/Users/null/projects/cv/backend/node_modules/ts-node/src/index.ts',
+      function: 'createTSError',
+      line: 859,
+      method: null,
+      native: false
+    },
+    {
+      column: 19,
+      file: '/Users/null/projects/cv/backend/node_modules/ts-node/src/index.ts',
+      function: 'reportTSError',
+      line: 863,
+      method: null,
+      native: false
+    },
+    {
+      column: 36,
+      file: '/Users/null/projects/cv/backend/node_modules/ts-node/src/index.ts',
+      function: 'getOutput',
+      line: 1077,
+      method: null,
+      native: false
+    },
+    {
+      column: 41,
+      file: '/Users/null/projects/cv/backend/node_modules/ts-node/src/index.ts',
+      function: 'Object.compile',
+      line: 1433,
+      method: 'compile',
+      native: false
+    },
+    {
+      column: 30,
+      file: '/Users/null/projects/cv/backend/node_modules/ts-node/src/index.ts',
+      function: 'Module.m._compile',
+      line: 1617,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'loadTS',
+      line: 1826,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: '/Users/null/projects/cv/backend/node_modules/ts-node/src/index.ts',
+      function: 'Object.require.extensions.<computed> [as .ts]',
+      line: 1621,
+      method: 'ts]',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1469,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Function._load',
+      line: 1286,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:diagnostics_channel',
+      function: 'TracingChannel.traceSync',
+      line: 322,
+      method: 'traceSync',
+      native: false
+    }
+  ],
+  timestamp: '2025-05-23 17:59:35'
+}
+{
+  error: [96msrc/services/telegram.service.ts[0m:[93m7[0m:[93m11[0m - [91merror[0m[90m TS2564: [0mProperty 'chatId' has no initializer and is not definitely assigned in the constructor.
+  
+  [7m7[0m   private chatId: string;
+  [7m [0m [91m          ~~~~~~[0m
+  ,
+  level: 'error',
+  message: 'uncaughtException: ⨯ Unable to compile TypeScript:\n' +
+    "\x1B[96msrc/services/telegram.service.ts\x1B[0m:\x1B[93m7\x1B[0m:\x1B[93m11\x1B[0m - \x1B[91merror\x1B[0m\x1B[90m TS2564: \x1B[0mProperty 'chatId' has no initializer and is not definitely assigned in the constructor.\n" +
+    '\n' +
+    '\x1B[7m7\x1B[0m   private chatId: string;\n' +
+    '\x1B[7m \x1B[0m \x1B[91m          ~~~~~~\x1B[0m\n' +
+    '\n' +
+    'TSError: ⨯ Unable to compile TypeScript:\n' +
+    "\x1B[96msrc/services/telegram.service.ts\x1B[0m:\x1B[93m7\x1B[0m:\x1B[93m11\x1B[0m - \x1B[91merror\x1B[0m\x1B[90m TS2564: \x1B[0mProperty 'chatId' has no initializer and is not definitely assigned in the constructor.\n" +
+    '\n' +
+    '\x1B[7m7\x1B[0m   private chatId: string;\n' +
+    '\x1B[7m \x1B[0m \x1B[91m          ~~~~~~\x1B[0m\n' +
+    '\n' +
+    '    at createTSError (/Users/null/projects/cv/backend/node_modules/ts-node/src/index.ts:859:12)\n' +
+    '    at reportTSError (/Users/null/projects/cv/backend/node_modules/ts-node/src/index.ts:863:19)\n' +
+    '    at getOutput (/Users/null/projects/cv/backend/node_modules/ts-node/src/index.ts:1077:36)\n' +
+    '    at Object.compile (/Users/null/projects/cv/backend/node_modules/ts-node/src/index.ts:1433:41)\n' +
+    '    at Module.m._compile (/Users/null/projects/cv/backend/node_modules/ts-node/src/index.ts:1617:30)\n' +
+    '    at loadTS (node:internal/modules/cjs/loader:1826:10)\n' +
+    '    at Object.require.extensions.<computed> [as .ts] (/Users/null/projects/cv/backend/node_modules/ts-node/src/index.ts:1621:12)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1469:32)\n' +
+    '    at Function._load (node:internal/modules/cjs/loader:1286:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:322:14)',
+  stack: 'TSError: ⨯ Unable to compile TypeScript:\n' +
+    "\x1B[96msrc/services/telegram.service.ts\x1B[0m:\x1B[93m7\x1B[0m:\x1B[93m11\x1B[0m - \x1B[91merror\x1B[0m\x1B[90m TS2564: \x1B[0mProperty 'chatId' has no initializer and is not definitely assigned in the constructor.\n" +
+    '\n' +
+    '\x1B[7m7\x1B[0m   private chatId: string;\n' +
+    '\x1B[7m \x1B[0m \x1B[91m          ~~~~~~\x1B[0m\n' +
+    '\n' +
+    '    at createTSError (/Users/null/projects/cv/backend/node_modules/ts-node/src/index.ts:859:12)\n' +
+    '    at reportTSError (/Users/null/projects/cv/backend/node_modules/ts-node/src/index.ts:863:19)\n' +
+    '    at getOutput (/Users/null/projects/cv/backend/node_modules/ts-node/src/index.ts:1077:36)\n' +
+    '    at Object.compile (/Users/null/projects/cv/backend/node_modules/ts-node/src/index.ts:1433:41)\n' +
+    '    at Module.m._compile (/Users/null/projects/cv/backend/node_modules/ts-node/src/index.ts:1617:30)\n' +
+    '    at loadTS (node:internal/modules/cjs/loader:1826:10)\n' +
+    '    at Object.require.extensions.<computed> [as .ts] (/Users/null/projects/cv/backend/node_modules/ts-node/src/index.ts:1621:12)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1469:32)\n' +
+    '    at Function._load (node:internal/modules/cjs/loader:1286:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:322:14)',
+  exception: true,
+  date: 'Fri May 23 2025 18:01:11 GMT+0700 (Indochina Time)',
+  process: {
+    pid: 42525,
+    uid: 501,
+    gid: 20,
+    cwd: '/Users/null/projects/cv/backend',
+    execPath: '/opt/homebrew/Cellar/node/23.10.0_1/bin/node',
+    version: 'v23.10.0',
+    argv: [
+      '/Users/null/projects/cv/backend/node_modules/.bin/ts-node',
+      '/Users/null/projects/cv/backend/src/server.ts',
+      'src/server.ts'
+    ],
+    memoryUsage: {
+      rss: 243810304,
+      heapTotal: 166035456,
+      heapUsed: 140768272,
+      external: 8335643,
+      arrayBuffers: 5111495
+    }
+  },
+  os: {
+    loadavg: [ 2.34326171875, 3.6767578125, 3.52294921875 ],
+    uptime: 1542742
+  },
+  trace: [
+    {
+      column: 12,
+      file: '/Users/null/projects/cv/backend/node_modules/ts-node/src/index.ts',
+      function: 'createTSError',
+      line: 859,
+      method: null,
+      native: false
+    },
+    {
+      column: 19,
+      file: '/Users/null/projects/cv/backend/node_modules/ts-node/src/index.ts',
+      function: 'reportTSError',
+      line: 863,
+      method: null,
+      native: false
+    },
+    {
+      column: 36,
+      file: '/Users/null/projects/cv/backend/node_modules/ts-node/src/index.ts',
+      function: 'getOutput',
+      line: 1077,
+      method: null,
+      native: false
+    },
+    {
+      column: 41,
+      file: '/Users/null/projects/cv/backend/node_modules/ts-node/src/index.ts',
+      function: 'Object.compile',
+      line: 1433,
+      method: 'compile',
+      native: false
+    },
+    {
+      column: 30,
+      file: '/Users/null/projects/cv/backend/node_modules/ts-node/src/index.ts',
+      function: 'Module.m._compile',
+      line: 1617,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'loadTS',
+      line: 1826,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: '/Users/null/projects/cv/backend/node_modules/ts-node/src/index.ts',
+      function: 'Object.require.extensions.<computed> [as .ts]',
+      line: 1621,
+      method: 'ts]',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1469,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Function._load',
+      line: 1286,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:diagnostics_channel',
+      function: 'TracingChannel.traceSync',
+      line: 322,
+      method: 'traceSync',
+      native: false
+    }
+  ],
+  timestamp: '2025-05-23 18:01:11'
+}
+{
+  error: [96msrc/services/telegram.service.ts[0m:[93m7[0m:[93m11[0m - [91merror[0m[90m TS2564: [0mProperty 'chatId' has no initializer and is not definitely assigned in the constructor.
+  
+  [7m7[0m   private chatId: string;
+  [7m [0m [91m          ~~~~~~[0m
+  ,
+  level: 'error',
+  message: 'uncaughtException: ⨯ Unable to compile TypeScript:\n' +
+    "\x1B[96msrc/services/telegram.service.ts\x1B[0m:\x1B[93m7\x1B[0m:\x1B[93m11\x1B[0m - \x1B[91merror\x1B[0m\x1B[90m TS2564: \x1B[0mProperty 'chatId' has no initializer and is not definitely assigned in the constructor.\n" +
+    '\n' +
+    '\x1B[7m7\x1B[0m   private chatId: string;\n' +
+    '\x1B[7m \x1B[0m \x1B[91m          ~~~~~~\x1B[0m\n' +
+    '\n' +
+    'TSError: ⨯ Unable to compile TypeScript:\n' +
+    "\x1B[96msrc/services/telegram.service.ts\x1B[0m:\x1B[93m7\x1B[0m:\x1B[93m11\x1B[0m - \x1B[91merror\x1B[0m\x1B[90m TS2564: \x1B[0mProperty 'chatId' has no initializer and is not definitely assigned in the constructor.\n" +
+    '\n' +
+    '\x1B[7m7\x1B[0m   private chatId: string;\n' +
+    '\x1B[7m \x1B[0m \x1B[91m          ~~~~~~\x1B[0m\n' +
+    '\n' +
+    '    at createTSError (/Users/null/projects/cv/backend/node_modules/ts-node/src/index.ts:859:12)\n' +
+    '    at reportTSError (/Users/null/projects/cv/backend/node_modules/ts-node/src/index.ts:863:19)\n' +
+    '    at getOutput (/Users/null/projects/cv/backend/node_modules/ts-node/src/index.ts:1077:36)\n' +
+    '    at Object.compile (/Users/null/projects/cv/backend/node_modules/ts-node/src/index.ts:1433:41)\n' +
+    '    at Module.m._compile (/Users/null/projects/cv/backend/node_modules/ts-node/src/index.ts:1617:30)\n' +
+    '    at loadTS (node:internal/modules/cjs/loader:1826:10)\n' +
+    '    at Object.require.extensions.<computed> [as .ts] (/Users/null/projects/cv/backend/node_modules/ts-node/src/index.ts:1621:12)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1469:32)\n' +
+    '    at Function._load (node:internal/modules/cjs/loader:1286:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:322:14)',
+  stack: 'TSError: ⨯ Unable to compile TypeScript:\n' +
+    "\x1B[96msrc/services/telegram.service.ts\x1B[0m:\x1B[93m7\x1B[0m:\x1B[93m11\x1B[0m - \x1B[91merror\x1B[0m\x1B[90m TS2564: \x1B[0mProperty 'chatId' has no initializer and is not definitely assigned in the constructor.\n" +
+    '\n' +
+    '\x1B[7m7\x1B[0m   private chatId: string;\n' +
+    '\x1B[7m \x1B[0m \x1B[91m          ~~~~~~\x1B[0m\n' +
+    '\n' +
+    '    at createTSError (/Users/null/projects/cv/backend/node_modules/ts-node/src/index.ts:859:12)\n' +
+    '    at reportTSError (/Users/null/projects/cv/backend/node_modules/ts-node/src/index.ts:863:19)\n' +
+    '    at getOutput (/Users/null/projects/cv/backend/node_modules/ts-node/src/index.ts:1077:36)\n' +
+    '    at Object.compile (/Users/null/projects/cv/backend/node_modules/ts-node/src/index.ts:1433:41)\n' +
+    '    at Module.m._compile (/Users/null/projects/cv/backend/node_modules/ts-node/src/index.ts:1617:30)\n' +
+    '    at loadTS (node:internal/modules/cjs/loader:1826:10)\n' +
+    '    at Object.require.extensions.<computed> [as .ts] (/Users/null/projects/cv/backend/node_modules/ts-node/src/index.ts:1621:12)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1469:32)\n' +
+    '    at Function._load (node:internal/modules/cjs/loader:1286:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:322:14)',
+  exception: true,
+  date: 'Fri May 23 2025 18:02:00 GMT+0700 (Indochina Time)',
+  process: {
+    pid: 42670,
+    uid: 501,
+    gid: 20,
+    cwd: '/Users/null/projects/cv/backend',
+    execPath: '/opt/homebrew/Cellar/node/23.10.0_1/bin/node',
+    version: 'v23.10.0',
+    argv: [
+      '/Users/null/projects/cv/backend/node_modules/.bin/ts-node',
+      '/Users/null/projects/cv/backend/src/server.ts'
+    ],
+    memoryUsage: {
+      rss: 283443200,
+      heapTotal: 164724736,
+      heapUsed: 138716656,
+      external: 8343650,
+      arrayBuffers: 5119502
+    }
+  },
+  os: {
+    loadavg: [ 2.0048828125, 3.37109375, 3.41650390625 ],
+    uptime: 1542791
+  },
+  trace: [
+    {
+      column: 12,
+      file: '/Users/null/projects/cv/backend/node_modules/ts-node/src/index.ts',
+      function: 'createTSError',
+      line: 859,
+      method: null,
+      native: false
+    },
+    {
+      column: 19,
+      file: '/Users/null/projects/cv/backend/node_modules/ts-node/src/index.ts',
+      function: 'reportTSError',
+      line: 863,
+      method: null,
+      native: false
+    },
+    {
+      column: 36,
+      file: '/Users/null/projects/cv/backend/node_modules/ts-node/src/index.ts',
+      function: 'getOutput',
+      line: 1077,
+      method: null,
+      native: false
+    },
+    {
+      column: 41,
+      file: '/Users/null/projects/cv/backend/node_modules/ts-node/src/index.ts',
+      function: 'Object.compile',
+      line: 1433,
+      method: 'compile',
+      native: false
+    },
+    {
+      column: 30,
+      file: '/Users/null/projects/cv/backend/node_modules/ts-node/src/index.ts',
+      function: 'Module.m._compile',
+      line: 1617,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'loadTS',
+      line: 1826,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: '/Users/null/projects/cv/backend/node_modules/ts-node/src/index.ts',
+      function: 'Object.require.extensions.<computed> [as .ts]',
+      line: 1621,
+      method: 'ts]',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1469,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Function._load',
+      line: 1286,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:diagnostics_channel',
+      function: 'TracingChannel.traceSync',
+      line: 322,
+      method: 'traceSync',
+      native: false
+    }
+  ],
+  timestamp: '2025-05-23 18:02:00'
+}
+{
+  error: [96msrc/services/telegram.service.ts[0m:[93m7[0m:[93m11[0m - [91merror[0m[90m TS2564: [0mProperty 'chatId' has no initializer and is not definitely assigned in the constructor.
+  
+  [7m7[0m   private chatId: string;
+  [7m [0m [91m          ~~~~~~[0m
+  ,
+  level: 'error',
+  message: 'uncaughtException: ⨯ Unable to compile TypeScript:\n' +
+    "\x1B[96msrc/services/telegram.service.ts\x1B[0m:\x1B[93m7\x1B[0m:\x1B[93m11\x1B[0m - \x1B[91merror\x1B[0m\x1B[90m TS2564: \x1B[0mProperty 'chatId' has no initializer and is not definitely assigned in the constructor.\n" +
+    '\n' +
+    '\x1B[7m7\x1B[0m   private chatId: string;\n' +
+    '\x1B[7m \x1B[0m \x1B[91m          ~~~~~~\x1B[0m\n' +
+    '\n' +
+    'TSError: ⨯ Unable to compile TypeScript:\n' +
+    "\x1B[96msrc/services/telegram.service.ts\x1B[0m:\x1B[93m7\x1B[0m:\x1B[93m11\x1B[0m - \x1B[91merror\x1B[0m\x1B[90m TS2564: \x1B[0mProperty 'chatId' has no initializer and is not definitely assigned in the constructor.\n" +
+    '\n' +
+    '\x1B[7m7\x1B[0m   private chatId: string;\n' +
+    '\x1B[7m \x1B[0m \x1B[91m          ~~~~~~\x1B[0m\n' +
+    '\n' +
+    '    at createTSError (/Users/null/projects/cv/backend/node_modules/ts-node/src/index.ts:859:12)\n' +
+    '    at reportTSError (/Users/null/projects/cv/backend/node_modules/ts-node/src/index.ts:863:19)\n' +
+    '    at getOutput (/Users/null/projects/cv/backend/node_modules/ts-node/src/index.ts:1077:36)\n' +
+    '    at Object.compile (/Users/null/projects/cv/backend/node_modules/ts-node/src/index.ts:1433:41)\n' +
+    '    at Module.m._compile (/Users/null/projects/cv/backend/node_modules/ts-node/src/index.ts:1617:30)\n' +
+    '    at loadTS (node:internal/modules/cjs/loader:1826:10)\n' +
+    '    at Object.require.extensions.<computed> [as .ts] (/Users/null/projects/cv/backend/node_modules/ts-node/src/index.ts:1621:12)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1469:32)\n' +
+    '    at Function._load (node:internal/modules/cjs/loader:1286:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:322:14)',
+  stack: 'TSError: ⨯ Unable to compile TypeScript:\n' +
+    "\x1B[96msrc/services/telegram.service.ts\x1B[0m:\x1B[93m7\x1B[0m:\x1B[93m11\x1B[0m - \x1B[91merror\x1B[0m\x1B[90m TS2564: \x1B[0mProperty 'chatId' has no initializer and is not definitely assigned in the constructor.\n" +
+    '\n' +
+    '\x1B[7m7\x1B[0m   private chatId: string;\n' +
+    '\x1B[7m \x1B[0m \x1B[91m          ~~~~~~\x1B[0m\n' +
+    '\n' +
+    '    at createTSError (/Users/null/projects/cv/backend/node_modules/ts-node/src/index.ts:859:12)\n' +
+    '    at reportTSError (/Users/null/projects/cv/backend/node_modules/ts-node/src/index.ts:863:19)\n' +
+    '    at getOutput (/Users/null/projects/cv/backend/node_modules/ts-node/src/index.ts:1077:36)\n' +
+    '    at Object.compile (/Users/null/projects/cv/backend/node_modules/ts-node/src/index.ts:1433:41)\n' +
+    '    at Module.m._compile (/Users/null/projects/cv/backend/node_modules/ts-node/src/index.ts:1617:30)\n' +
+    '    at loadTS (node:internal/modules/cjs/loader:1826:10)\n' +
+    '    at Object.require.extensions.<computed> [as .ts] (/Users/null/projects/cv/backend/node_modules/ts-node/src/index.ts:1621:12)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1469:32)\n' +
+    '    at Function._load (node:internal/modules/cjs/loader:1286:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:322:14)',
+  exception: true,
+  date: 'Fri May 23 2025 18:02:08 GMT+0700 (Indochina Time)',
+  process: {
+    pid: 42730,
+    uid: 501,
+    gid: 20,
+    cwd: '/Users/null/projects/cv/backend',
+    execPath: '/opt/homebrew/Cellar/node/23.10.0_1/bin/node',
+    version: 'v23.10.0',
+    argv: [
+      '/Users/null/projects/cv/backend/node_modules/.bin/ts-node',
+      '/Users/null/projects/cv/backend/src/server.ts'
+    ],
+    memoryUsage: {
+      rss: 260227072,
+      heapTotal: 165511168,
+      heapUsed: 139313928,
+      external: 8343562,
+      arrayBuffers: 5119414
+    }
+  },
+  os: {
+    loadavg: [ 1.99755859375, 3.3251953125, 3.39990234375 ],
+    uptime: 1542799
+  },
+  trace: [
+    {
+      column: 12,
+      file: '/Users/null/projects/cv/backend/node_modules/ts-node/src/index.ts',
+      function: 'createTSError',
+      line: 859,
+      method: null,
+      native: false
+    },
+    {
+      column: 19,
+      file: '/Users/null/projects/cv/backend/node_modules/ts-node/src/index.ts',
+      function: 'reportTSError',
+      line: 863,
+      method: null,
+      native: false
+    },
+    {
+      column: 36,
+      file: '/Users/null/projects/cv/backend/node_modules/ts-node/src/index.ts',
+      function: 'getOutput',
+      line: 1077,
+      method: null,
+      native: false
+    },
+    {
+      column: 41,
+      file: '/Users/null/projects/cv/backend/node_modules/ts-node/src/index.ts',
+      function: 'Object.compile',
+      line: 1433,
+      method: 'compile',
+      native: false
+    },
+    {
+      column: 30,
+      file: '/Users/null/projects/cv/backend/node_modules/ts-node/src/index.ts',
+      function: 'Module.m._compile',
+      line: 1617,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'loadTS',
+      line: 1826,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: '/Users/null/projects/cv/backend/node_modules/ts-node/src/index.ts',
+      function: 'Object.require.extensions.<computed> [as .ts]',
+      line: 1621,
+      method: 'ts]',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1469,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Function._load',
+      line: 1286,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:diagnostics_channel',
+      function: 'TracingChannel.traceSync',
+      line: 322,
+      method: 'traceSync',
+      native: false
+    }
+  ],
+  timestamp: '2025-05-23 18:02:08'
+}
+{
+  error: [96msrc/middleware/rateLimiter.ts[0m:[93m17[0m:[93m3[0m - [91merror[0m[90m TS2353: [0mObject literal may only specify known properties, and 'keyGenerator' does not exist in type 'IRateLimiterOptions'.
+  
+  [7m17[0m   keyGenerator: (req: Request) => getClientIP(req),
+  [7m  [0m [91m  ~~~~~~~~~~~~[0m
+  [96msrc/middleware/rateLimiter.ts[0m:[93m25[0m:[93m3[0m - [91merror[0m[90m TS2353: [0mObject literal may only specify known properties, and 'keyGenerator' does not exist in type 'IRateLimiterOptions'.
+  
+  [7m25[0m   keyGenerator: (req: Request) => getClientIP(req),
+  [7m  [0m [91m  ~~~~~~~~~~~~[0m
+  ,
+  level: 'error',
+  message: 'uncaughtException: ⨯ Unable to compile TypeScript:\n' +
+    "\x1B[96msrc/middleware/rateLimiter.ts\x1B[0m:\x1B[93m17\x1B[0m:\x1B[93m3\x1B[0m - \x1B[91merror\x1B[0m\x1B[90m TS2353: \x1B[0mObject literal may only specify known properties, and 'keyGenerator' does not exist in type 'IRateLimiterOptions'.\n" +
+    '\n' +
+    '\x1B[7m17\x1B[0m   keyGenerator: (req: Request) => getClientIP(req),\n' +
+    '\x1B[7m  \x1B[0m \x1B[91m  ~~~~~~~~~~~~\x1B[0m\n' +
+    "\x1B[96msrc/middleware/rateLimiter.ts\x1B[0m:\x1B[93m25\x1B[0m:\x1B[93m3\x1B[0m - \x1B[91merror\x1B[0m\x1B[90m TS2353: \x1B[0mObject literal may only specify known properties, and 'keyGenerator' does not exist in type 'IRateLimiterOptions'.\n" +
+    '\n' +
+    '\x1B[7m25\x1B[0m   keyGenerator: (req: Request) => getClientIP(req),\n' +
+    '\x1B[7m  \x1B[0m \x1B[91m  ~~~~~~~~~~~~\x1B[0m\n' +
+    '\n' +
+    'TSError: ⨯ Unable to compile TypeScript:\n' +
+    "\x1B[96msrc/middleware/rateLimiter.ts\x1B[0m:\x1B[93m17\x1B[0m:\x1B[93m3\x1B[0m - \x1B[91merror\x1B[0m\x1B[90m TS2353: \x1B[0mObject literal may only specify known properties, and 'keyGenerator' does not exist in type 'IRateLimiterOptions'.\n" +
+    '\n' +
+    '\x1B[7m17\x1B[0m   keyGenerator: (req: Request) => getClientIP(req),\n' +
+    '\x1B[7m  \x1B[0m \x1B[91m  ~~~~~~~~~~~~\x1B[0m\n' +
+    "\x1B[96msrc/middleware/rateLimiter.ts\x1B[0m:\x1B[93m25\x1B[0m:\x1B[93m3\x1B[0m - \x1B[91merror\x1B[0m\x1B[90m TS2353: \x1B[0mObject literal may only specify known properties, and 'keyGenerator' does not exist in type 'IRateLimiterOptions'.\n" +
+    '\n' +
+    '\x1B[7m25\x1B[0m   keyGenerator: (req: Request) => getClientIP(req),\n' +
+    '\x1B[7m  \x1B[0m \x1B[91m  ~~~~~~~~~~~~\x1B[0m\n' +
+    '\n' +
+    '    at createTSError (/Users/null/projects/cv/backend/node_modules/ts-node/src/index.ts:859:12)\n' +
+    '    at reportTSError (/Users/null/projects/cv/backend/node_modules/ts-node/src/index.ts:863:19)\n' +
+    '    at getOutput (/Users/null/projects/cv/backend/node_modules/ts-node/src/index.ts:1077:36)\n' +
+    '    at Object.compile (/Users/null/projects/cv/backend/node_modules/ts-node/src/index.ts:1433:41)\n' +
+    '    at Module.m._compile (/Users/null/projects/cv/backend/node_modules/ts-node/src/index.ts:1617:30)\n' +
+    '    at loadTS (node:internal/modules/cjs/loader:1826:10)\n' +
+    '    at Object.require.extensions.<computed> [as .ts] (/Users/null/projects/cv/backend/node_modules/ts-node/src/index.ts:1621:12)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1469:32)\n' +
+    '    at Function._load (node:internal/modules/cjs/loader:1286:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:322:14)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1491:12)\n' +
+    '    at require (node:internal/modules/helpers:135:16)\n' +
+    '    at Object.<anonymous> (/Users/null/projects/cv/backend/src/server.ts:6:1)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1734:14)\n' +
+    '    at Module.m._compile (/Users/null/projects/cv/backend/node_modules/ts-node/src/index.ts:1618:23)\n' +
+    '    at loadTS (node:internal/modules/cjs/loader:1826:10)\n' +
+    '    at Object.require.extensions.<computed> [as .ts] (/Users/null/projects/cv/backend/node_modules/ts-node/src/index.ts:1621:12)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1469:32)\n' +
+    '    at Function._load (node:internal/modules/cjs/loader:1286:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:322:14)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)',
+  stack: 'TSError: ⨯ Unable to compile TypeScript:\n' +
+    "\x1B[96msrc/middleware/rateLimiter.ts\x1B[0m:\x1B[93m17\x1B[0m:\x1B[93m3\x1B[0m - \x1B[91merror\x1B[0m\x1B[90m TS2353: \x1B[0mObject literal may only specify known properties, and 'keyGenerator' does not exist in type 'IRateLimiterOptions'.\n" +
+    '\n' +
+    '\x1B[7m17\x1B[0m   keyGenerator: (req: Request) => getClientIP(req),\n' +
+    '\x1B[7m  \x1B[0m \x1B[91m  ~~~~~~~~~~~~\x1B[0m\n' +
+    "\x1B[96msrc/middleware/rateLimiter.ts\x1B[0m:\x1B[93m25\x1B[0m:\x1B[93m3\x1B[0m - \x1B[91merror\x1B[0m\x1B[90m TS2353: \x1B[0mObject literal may only specify known properties, and 'keyGenerator' does not exist in type 'IRateLimiterOptions'.\n" +
+    '\n' +
+    '\x1B[7m25\x1B[0m   keyGenerator: (req: Request) => getClientIP(req),\n' +
+    '\x1B[7m  \x1B[0m \x1B[91m  ~~~~~~~~~~~~\x1B[0m\n' +
+    '\n' +
+    '    at createTSError (/Users/null/projects/cv/backend/node_modules/ts-node/src/index.ts:859:12)\n' +
+    '    at reportTSError (/Users/null/projects/cv/backend/node_modules/ts-node/src/index.ts:863:19)\n' +
+    '    at getOutput (/Users/null/projects/cv/backend/node_modules/ts-node/src/index.ts:1077:36)\n' +
+    '    at Object.compile (/Users/null/projects/cv/backend/node_modules/ts-node/src/index.ts:1433:41)\n' +
+    '    at Module.m._compile (/Users/null/projects/cv/backend/node_modules/ts-node/src/index.ts:1617:30)\n' +
+    '    at loadTS (node:internal/modules/cjs/loader:1826:10)\n' +
+    '    at Object.require.extensions.<computed> [as .ts] (/Users/null/projects/cv/backend/node_modules/ts-node/src/index.ts:1621:12)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1469:32)\n' +
+    '    at Function._load (node:internal/modules/cjs/loader:1286:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:322:14)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1491:12)\n' +
+    '    at require (node:internal/modules/helpers:135:16)\n' +
+    '    at Object.<anonymous> (/Users/null/projects/cv/backend/src/server.ts:6:1)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1734:14)\n' +
+    '    at Module.m._compile (/Users/null/projects/cv/backend/node_modules/ts-node/src/index.ts:1618:23)\n' +
+    '    at loadTS (node:internal/modules/cjs/loader:1826:10)\n' +
+    '    at Object.require.extensions.<computed> [as .ts] (/Users/null/projects/cv/backend/node_modules/ts-node/src/index.ts:1621:12)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1469:32)\n' +
+    '    at Function._load (node:internal/modules/cjs/loader:1286:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:322:14)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)',
+  exception: true,
+  date: 'Fri May 23 2025 18:02:53 GMT+0700 (Indochina Time)',
+  process: {
+    pid: 42947,
+    uid: 501,
+    gid: 20,
+    cwd: '/Users/null/projects/cv/backend',
+    execPath: '/opt/homebrew/Cellar/node/23.10.0_1/bin/node',
+    version: 'v23.10.0',
+    argv: [
+      '/Users/null/projects/cv/backend/node_modules/.bin/ts-node',
+      '/Users/null/projects/cv/backend/src/server.ts',
+      'src/server.ts'
+    ],
+    memoryUsage: {
+      rss: 271106048,
+      heapTotal: 179781632,
+      heapUsed: 159221224,
+      external: 8330218,
+      arrayBuffers: 5122598
+    }
+  },
+  os: {
+    loadavg: [ 1.6640625, 3.04541015625, 3.29150390625 ],
+    uptime: 1542844
+  },
+  trace: [
+    {
+      column: 12,
+      file: '/Users/null/projects/cv/backend/node_modules/ts-node/src/index.ts',
+      function: 'createTSError',
+      line: 859,
+      method: null,
+      native: false
+    },
+    {
+      column: 19,
+      file: '/Users/null/projects/cv/backend/node_modules/ts-node/src/index.ts',
+      function: 'reportTSError',
+      line: 863,
+      method: null,
+      native: false
+    },
+    {
+      column: 36,
+      file: '/Users/null/projects/cv/backend/node_modules/ts-node/src/index.ts',
+      function: 'getOutput',
+      line: 1077,
+      method: null,
+      native: false
+    },
+    {
+      column: 41,
+      file: '/Users/null/projects/cv/backend/node_modules/ts-node/src/index.ts',
+      function: 'Object.compile',
+      line: 1433,
+      method: 'compile',
+      native: false
+    },
+    {
+      column: 30,
+      file: '/Users/null/projects/cv/backend/node_modules/ts-node/src/index.ts',
+      function: 'Module.m._compile',
+      line: 1617,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'loadTS',
+      line: 1826,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: '/Users/null/projects/cv/backend/node_modules/ts-node/src/index.ts',
+      function: 'Object.require.extensions.<computed> [as .ts]',
+      line: 1621,
+      method: 'ts]',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1469,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Function._load',
+      line: 1286,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:diagnostics_channel',
+      function: 'TracingChannel.traceSync',
+      line: 322,
+      method: 'traceSync',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'wrapModuleLoad',
+      line: 235,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1491,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 16,
+      file: 'node:internal/modules/helpers',
+      function: 'require',
+      line: 135,
+      method: null,
+      native: false
+    },
+    {
+      column: 1,
+      file: '/Users/null/projects/cv/backend/src/server.ts',
+      function: null,
+      line: 6,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1734,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 23,
+      file: '/Users/null/projects/cv/backend/node_modules/ts-node/src/index.ts',
+      function: 'Module.m._compile',
+      line: 1618,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'loadTS',
+      line: 1826,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: '/Users/null/projects/cv/backend/node_modules/ts-node/src/index.ts',
+      function: 'Object.require.extensions.<computed> [as .ts]',
+      line: 1621,
+      method: 'ts]',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1469,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Function._load',
+      line: 1286,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:diagnostics_channel',
+      function: 'TracingChannel.traceSync',
+      line: 322,
+      method: 'traceSync',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'wrapModuleLoad',
+      line: 235,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '2025-05-23 18:02:53'
+}
+{
+  error: [96msrc/middleware/rateLimiter.ts[0m:[93m17[0m:[93m3[0m - [91merror[0m[90m TS2353: [0mObject literal may only specify known properties, and 'keyGenerator' does not exist in type 'IRateLimiterOptions'.
+  
+  [7m17[0m   keyGenerator: (req: Request) => getClientIP(req),
+  [7m  [0m [91m  ~~~~~~~~~~~~[0m
+  [96msrc/middleware/rateLimiter.ts[0m:[93m25[0m:[93m3[0m - [91merror[0m[90m TS2353: [0mObject literal may only specify known properties, and 'keyGenerator' does not exist in type 'IRateLimiterOptions'.
+  
+  [7m25[0m   keyGenerator: (req: Request) => getClientIP(req),
+  [7m  [0m [91m  ~~~~~~~~~~~~[0m
+  ,
+  level: 'error',
+  message: 'uncaughtException: ⨯ Unable to compile TypeScript:\n' +
+    "\x1B[96msrc/middleware/rateLimiter.ts\x1B[0m:\x1B[93m17\x1B[0m:\x1B[93m3\x1B[0m - \x1B[91merror\x1B[0m\x1B[90m TS2353: \x1B[0mObject literal may only specify known properties, and 'keyGenerator' does not exist in type 'IRateLimiterOptions'.\n" +
+    '\n' +
+    '\x1B[7m17\x1B[0m   keyGenerator: (req: Request) => getClientIP(req),\n' +
+    '\x1B[7m  \x1B[0m \x1B[91m  ~~~~~~~~~~~~\x1B[0m\n' +
+    "\x1B[96msrc/middleware/rateLimiter.ts\x1B[0m:\x1B[93m25\x1B[0m:\x1B[93m3\x1B[0m - \x1B[91merror\x1B[0m\x1B[90m TS2353: \x1B[0mObject literal may only specify known properties, and 'keyGenerator' does not exist in type 'IRateLimiterOptions'.\n" +
+    '\n' +
+    '\x1B[7m25\x1B[0m   keyGenerator: (req: Request) => getClientIP(req),\n' +
+    '\x1B[7m  \x1B[0m \x1B[91m  ~~~~~~~~~~~~\x1B[0m\n' +
+    '\n' +
+    'TSError: ⨯ Unable to compile TypeScript:\n' +
+    "\x1B[96msrc/middleware/rateLimiter.ts\x1B[0m:\x1B[93m17\x1B[0m:\x1B[93m3\x1B[0m - \x1B[91merror\x1B[0m\x1B[90m TS2353: \x1B[0mObject literal may only specify known properties, and 'keyGenerator' does not exist in type 'IRateLimiterOptions'.\n" +
+    '\n' +
+    '\x1B[7m17\x1B[0m   keyGenerator: (req: Request) => getClientIP(req),\n' +
+    '\x1B[7m  \x1B[0m \x1B[91m  ~~~~~~~~~~~~\x1B[0m\n' +
+    "\x1B[96msrc/middleware/rateLimiter.ts\x1B[0m:\x1B[93m25\x1B[0m:\x1B[93m3\x1B[0m - \x1B[91merror\x1B[0m\x1B[90m TS2353: \x1B[0mObject literal may only specify known properties, and 'keyGenerator' does not exist in type 'IRateLimiterOptions'.\n" +
+    '\n' +
+    '\x1B[7m25\x1B[0m   keyGenerator: (req: Request) => getClientIP(req),\n' +
+    '\x1B[7m  \x1B[0m \x1B[91m  ~~~~~~~~~~~~\x1B[0m\n' +
+    '\n' +
+    '    at createTSError (/Users/null/projects/cv/backend/node_modules/ts-node/src/index.ts:859:12)\n' +
+    '    at reportTSError (/Users/null/projects/cv/backend/node_modules/ts-node/src/index.ts:863:19)\n' +
+    '    at getOutput (/Users/null/projects/cv/backend/node_modules/ts-node/src/index.ts:1077:36)\n' +
+    '    at Object.compile (/Users/null/projects/cv/backend/node_modules/ts-node/src/index.ts:1433:41)\n' +
+    '    at Module.m._compile (/Users/null/projects/cv/backend/node_modules/ts-node/src/index.ts:1617:30)\n' +
+    '    at loadTS (node:internal/modules/cjs/loader:1826:10)\n' +
+    '    at Object.require.extensions.<computed> [as .ts] (/Users/null/projects/cv/backend/node_modules/ts-node/src/index.ts:1621:12)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1469:32)\n' +
+    '    at Function._load (node:internal/modules/cjs/loader:1286:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:322:14)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1491:12)\n' +
+    '    at require (node:internal/modules/helpers:135:16)\n' +
+    '    at Object.<anonymous> (/Users/null/projects/cv/backend/src/server.ts:6:1)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1734:14)\n' +
+    '    at Module.m._compile (/Users/null/projects/cv/backend/node_modules/ts-node/src/index.ts:1618:23)\n' +
+    '    at loadTS (node:internal/modules/cjs/loader:1826:10)\n' +
+    '    at Object.require.extensions.<computed> [as .ts] (/Users/null/projects/cv/backend/node_modules/ts-node/src/index.ts:1621:12)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1469:32)\n' +
+    '    at Function._load (node:internal/modules/cjs/loader:1286:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:322:14)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)',
+  stack: 'TSError: ⨯ Unable to compile TypeScript:\n' +
+    "\x1B[96msrc/middleware/rateLimiter.ts\x1B[0m:\x1B[93m17\x1B[0m:\x1B[93m3\x1B[0m - \x1B[91merror\x1B[0m\x1B[90m TS2353: \x1B[0mObject literal may only specify known properties, and 'keyGenerator' does not exist in type 'IRateLimiterOptions'.\n" +
+    '\n' +
+    '\x1B[7m17\x1B[0m   keyGenerator: (req: Request) => getClientIP(req),\n' +
+    '\x1B[7m  \x1B[0m \x1B[91m  ~~~~~~~~~~~~\x1B[0m\n' +
+    "\x1B[96msrc/middleware/rateLimiter.ts\x1B[0m:\x1B[93m25\x1B[0m:\x1B[93m3\x1B[0m - \x1B[91merror\x1B[0m\x1B[90m TS2353: \x1B[0mObject literal may only specify known properties, and 'keyGenerator' does not exist in type 'IRateLimiterOptions'.\n" +
+    '\n' +
+    '\x1B[7m25\x1B[0m   keyGenerator: (req: Request) => getClientIP(req),\n' +
+    '\x1B[7m  \x1B[0m \x1B[91m  ~~~~~~~~~~~~\x1B[0m\n' +
+    '\n' +
+    '    at createTSError (/Users/null/projects/cv/backend/node_modules/ts-node/src/index.ts:859:12)\n' +
+    '    at reportTSError (/Users/null/projects/cv/backend/node_modules/ts-node/src/index.ts:863:19)\n' +
+    '    at getOutput (/Users/null/projects/cv/backend/node_modules/ts-node/src/index.ts:1077:36)\n' +
+    '    at Object.compile (/Users/null/projects/cv/backend/node_modules/ts-node/src/index.ts:1433:41)\n' +
+    '    at Module.m._compile (/Users/null/projects/cv/backend/node_modules/ts-node/src/index.ts:1617:30)\n' +
+    '    at loadTS (node:internal/modules/cjs/loader:1826:10)\n' +
+    '    at Object.require.extensions.<computed> [as .ts] (/Users/null/projects/cv/backend/node_modules/ts-node/src/index.ts:1621:12)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1469:32)\n' +
+    '    at Function._load (node:internal/modules/cjs/loader:1286:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:322:14)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1491:12)\n' +
+    '    at require (node:internal/modules/helpers:135:16)\n' +
+    '    at Object.<anonymous> (/Users/null/projects/cv/backend/src/server.ts:6:1)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1734:14)\n' +
+    '    at Module.m._compile (/Users/null/projects/cv/backend/node_modules/ts-node/src/index.ts:1618:23)\n' +
+    '    at loadTS (node:internal/modules/cjs/loader:1826:10)\n' +
+    '    at Object.require.extensions.<computed> [as .ts] (/Users/null/projects/cv/backend/node_modules/ts-node/src/index.ts:1621:12)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1469:32)\n' +
+    '    at Function._load (node:internal/modules/cjs/loader:1286:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:322:14)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)',
+  exception: true,
+  date: 'Fri May 23 2025 18:03:22 GMT+0700 (Indochina Time)',
+  process: {
+    pid: 43051,
+    uid: 501,
+    gid: 20,
+    cwd: '/Users/null/projects/cv/backend',
+    execPath: '/opt/homebrew/Cellar/node/23.10.0_1/bin/node',
+    version: 'v23.10.0',
+    argv: [
+      '/Users/null/projects/cv/backend/node_modules/.bin/ts-node',
+      '/Users/null/projects/cv/backend/src/server.ts'
+    ],
+    memoryUsage: {
+      rss: 281313280,
+      heapTotal: 179519488,
+      heapUsed: 157917680,
+      external: 8338313,
+      arrayBuffers: 5130693
+    }
+  },
+  os: {
+    loadavg: [ 1.447265625, 2.86328125, 3.21630859375 ],
+    uptime: 1542873
+  },
+  trace: [
+    {
+      column: 12,
+      file: '/Users/null/projects/cv/backend/node_modules/ts-node/src/index.ts',
+      function: 'createTSError',
+      line: 859,
+      method: null,
+      native: false
+    },
+    {
+      column: 19,
+      file: '/Users/null/projects/cv/backend/node_modules/ts-node/src/index.ts',
+      function: 'reportTSError',
+      line: 863,
+      method: null,
+      native: false
+    },
+    {
+      column: 36,
+      file: '/Users/null/projects/cv/backend/node_modules/ts-node/src/index.ts',
+      function: 'getOutput',
+      line: 1077,
+      method: null,
+      native: false
+    },
+    {
+      column: 41,
+      file: '/Users/null/projects/cv/backend/node_modules/ts-node/src/index.ts',
+      function: 'Object.compile',
+      line: 1433,
+      method: 'compile',
+      native: false
+    },
+    {
+      column: 30,
+      file: '/Users/null/projects/cv/backend/node_modules/ts-node/src/index.ts',
+      function: 'Module.m._compile',
+      line: 1617,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'loadTS',
+      line: 1826,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: '/Users/null/projects/cv/backend/node_modules/ts-node/src/index.ts',
+      function: 'Object.require.extensions.<computed> [as .ts]',
+      line: 1621,
+      method: 'ts]',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1469,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Function._load',
+      line: 1286,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:diagnostics_channel',
+      function: 'TracingChannel.traceSync',
+      line: 322,
+      method: 'traceSync',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'wrapModuleLoad',
+      line: 235,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1491,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 16,
+      file: 'node:internal/modules/helpers',
+      function: 'require',
+      line: 135,
+      method: null,
+      native: false
+    },
+    {
+      column: 1,
+      file: '/Users/null/projects/cv/backend/src/server.ts',
+      function: null,
+      line: 6,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1734,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 23,
+      file: '/Users/null/projects/cv/backend/node_modules/ts-node/src/index.ts',
+      function: 'Module.m._compile',
+      line: 1618,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'loadTS',
+      line: 1826,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: '/Users/null/projects/cv/backend/node_modules/ts-node/src/index.ts',
+      function: 'Object.require.extensions.<computed> [as .ts]',
+      line: 1621,
+      method: 'ts]',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1469,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Function._load',
+      line: 1286,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:diagnostics_channel',
+      function: 'TracingChannel.traceSync',
+      line: 322,
+      method: 'traceSync',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'wrapModuleLoad',
+      line: 235,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '2025-05-23 18:03:22'
+}
+{
+  error: [96msrc/middleware/rateLimiter.ts[0m:[93m17[0m:[93m3[0m - [91merror[0m[90m TS2353: [0mObject literal may only specify known properties, and 'keyGenerator' does not exist in type 'IRateLimiterOptions'.
+  
+  [7m17[0m   keyGenerator: (req: Request) => getClientIP(req),
+  [7m  [0m [91m  ~~~~~~~~~~~~[0m
+  [96msrc/middleware/rateLimiter.ts[0m:[93m25[0m:[93m3[0m - [91merror[0m[90m TS2353: [0mObject literal may only specify known properties, and 'keyGenerator' does not exist in type 'IRateLimiterOptions'.
+  
+  [7m25[0m   keyGenerator: (req: Request) => getClientIP(req),
+  [7m  [0m [91m  ~~~~~~~~~~~~[0m
+  ,
+  level: 'error',
+  message: 'uncaughtException: ⨯ Unable to compile TypeScript:\n' +
+    "\x1B[96msrc/middleware/rateLimiter.ts\x1B[0m:\x1B[93m17\x1B[0m:\x1B[93m3\x1B[0m - \x1B[91merror\x1B[0m\x1B[90m TS2353: \x1B[0mObject literal may only specify known properties, and 'keyGenerator' does not exist in type 'IRateLimiterOptions'.\n" +
+    '\n' +
+    '\x1B[7m17\x1B[0m   keyGenerator: (req: Request) => getClientIP(req),\n' +
+    '\x1B[7m  \x1B[0m \x1B[91m  ~~~~~~~~~~~~\x1B[0m\n' +
+    "\x1B[96msrc/middleware/rateLimiter.ts\x1B[0m:\x1B[93m25\x1B[0m:\x1B[93m3\x1B[0m - \x1B[91merror\x1B[0m\x1B[90m TS2353: \x1B[0mObject literal may only specify known properties, and 'keyGenerator' does not exist in type 'IRateLimiterOptions'.\n" +
+    '\n' +
+    '\x1B[7m25\x1B[0m   keyGenerator: (req: Request) => getClientIP(req),\n' +
+    '\x1B[7m  \x1B[0m \x1B[91m  ~~~~~~~~~~~~\x1B[0m\n' +
+    '\n' +
+    'TSError: ⨯ Unable to compile TypeScript:\n' +
+    "\x1B[96msrc/middleware/rateLimiter.ts\x1B[0m:\x1B[93m17\x1B[0m:\x1B[93m3\x1B[0m - \x1B[91merror\x1B[0m\x1B[90m TS2353: \x1B[0mObject literal may only specify known properties, and 'keyGenerator' does not exist in type 'IRateLimiterOptions'.\n" +
+    '\n' +
+    '\x1B[7m17\x1B[0m   keyGenerator: (req: Request) => getClientIP(req),\n' +
+    '\x1B[7m  \x1B[0m \x1B[91m  ~~~~~~~~~~~~\x1B[0m\n' +
+    "\x1B[96msrc/middleware/rateLimiter.ts\x1B[0m:\x1B[93m25\x1B[0m:\x1B[93m3\x1B[0m - \x1B[91merror\x1B[0m\x1B[90m TS2353: \x1B[0mObject literal may only specify known properties, and 'keyGenerator' does not exist in type 'IRateLimiterOptions'.\n" +
+    '\n' +
+    '\x1B[7m25\x1B[0m   keyGenerator: (req: Request) => getClientIP(req),\n' +
+    '\x1B[7m  \x1B[0m \x1B[91m  ~~~~~~~~~~~~\x1B[0m\n' +
+    '\n' +
+    '    at createTSError (/Users/null/projects/cv/backend/node_modules/ts-node/src/index.ts:859:12)\n' +
+    '    at reportTSError (/Users/null/projects/cv/backend/node_modules/ts-node/src/index.ts:863:19)\n' +
+    '    at getOutput (/Users/null/projects/cv/backend/node_modules/ts-node/src/index.ts:1077:36)\n' +
+    '    at Object.compile (/Users/null/projects/cv/backend/node_modules/ts-node/src/index.ts:1433:41)\n' +
+    '    at Module.m._compile (/Users/null/projects/cv/backend/node_modules/ts-node/src/index.ts:1617:30)\n' +
+    '    at loadTS (node:internal/modules/cjs/loader:1826:10)\n' +
+    '    at Object.require.extensions.<computed> [as .ts] (/Users/null/projects/cv/backend/node_modules/ts-node/src/index.ts:1621:12)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1469:32)\n' +
+    '    at Function._load (node:internal/modules/cjs/loader:1286:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:322:14)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1491:12)\n' +
+    '    at require (node:internal/modules/helpers:135:16)\n' +
+    '    at Object.<anonymous> (/Users/null/projects/cv/backend/src/server.ts:6:1)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1734:14)\n' +
+    '    at Module.m._compile (/Users/null/projects/cv/backend/node_modules/ts-node/src/index.ts:1618:23)\n' +
+    '    at loadTS (node:internal/modules/cjs/loader:1826:10)\n' +
+    '    at Object.require.extensions.<computed> [as .ts] (/Users/null/projects/cv/backend/node_modules/ts-node/src/index.ts:1621:12)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1469:32)\n' +
+    '    at Function._load (node:internal/modules/cjs/loader:1286:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:322:14)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)',
+  stack: 'TSError: ⨯ Unable to compile TypeScript:\n' +
+    "\x1B[96msrc/middleware/rateLimiter.ts\x1B[0m:\x1B[93m17\x1B[0m:\x1B[93m3\x1B[0m - \x1B[91merror\x1B[0m\x1B[90m TS2353: \x1B[0mObject literal may only specify known properties, and 'keyGenerator' does not exist in type 'IRateLimiterOptions'.\n" +
+    '\n' +
+    '\x1B[7m17\x1B[0m   keyGenerator: (req: Request) => getClientIP(req),\n' +
+    '\x1B[7m  \x1B[0m \x1B[91m  ~~~~~~~~~~~~\x1B[0m\n' +
+    "\x1B[96msrc/middleware/rateLimiter.ts\x1B[0m:\x1B[93m25\x1B[0m:\x1B[93m3\x1B[0m - \x1B[91merror\x1B[0m\x1B[90m TS2353: \x1B[0mObject literal may only specify known properties, and 'keyGenerator' does not exist in type 'IRateLimiterOptions'.\n" +
+    '\n' +
+    '\x1B[7m25\x1B[0m   keyGenerator: (req: Request) => getClientIP(req),\n' +
+    '\x1B[7m  \x1B[0m \x1B[91m  ~~~~~~~~~~~~\x1B[0m\n' +
+    '\n' +
+    '    at createTSError (/Users/null/projects/cv/backend/node_modules/ts-node/src/index.ts:859:12)\n' +
+    '    at reportTSError (/Users/null/projects/cv/backend/node_modules/ts-node/src/index.ts:863:19)\n' +
+    '    at getOutput (/Users/null/projects/cv/backend/node_modules/ts-node/src/index.ts:1077:36)\n' +
+    '    at Object.compile (/Users/null/projects/cv/backend/node_modules/ts-node/src/index.ts:1433:41)\n' +
+    '    at Module.m._compile (/Users/null/projects/cv/backend/node_modules/ts-node/src/index.ts:1617:30)\n' +
+    '    at loadTS (node:internal/modules/cjs/loader:1826:10)\n' +
+    '    at Object.require.extensions.<computed> [as .ts] (/Users/null/projects/cv/backend/node_modules/ts-node/src/index.ts:1621:12)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1469:32)\n' +
+    '    at Function._load (node:internal/modules/cjs/loader:1286:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:322:14)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1491:12)\n' +
+    '    at require (node:internal/modules/helpers:135:16)\n' +
+    '    at Object.<anonymous> (/Users/null/projects/cv/backend/src/server.ts:6:1)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1734:14)\n' +
+    '    at Module.m._compile (/Users/null/projects/cv/backend/node_modules/ts-node/src/index.ts:1618:23)\n' +
+    '    at loadTS (node:internal/modules/cjs/loader:1826:10)\n' +
+    '    at Object.require.extensions.<computed> [as .ts] (/Users/null/projects/cv/backend/node_modules/ts-node/src/index.ts:1621:12)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1469:32)\n' +
+    '    at Function._load (node:internal/modules/cjs/loader:1286:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:322:14)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)',
+  exception: true,
+  date: 'Fri May 23 2025 18:03:39 GMT+0700 (Indochina Time)',
+  process: {
+    pid: 43105,
+    uid: 501,
+    gid: 20,
+    cwd: '/Users/null/projects/cv/backend',
+    execPath: '/opt/homebrew/Cellar/node/23.10.0_1/bin/node',
+    version: 'v23.10.0',
+    argv: [
+      '/Users/null/projects/cv/backend/node_modules/.bin/ts-node',
+      '/Users/null/projects/cv/backend/src/server.ts'
+    ],
+    memoryUsage: {
+      rss: 298205184,
+      heapTotal: 178208768,
+      heapUsed: 156710072,
+      external: 8338265,
+      arrayBuffers: 5130645
+    }
+  },
+  os: {
+    loadavg: [ 1.84521484375, 2.884765625, 3.2177734375 ],
+    uptime: 1542890
+  },
+  trace: [
+    {
+      column: 12,
+      file: '/Users/null/projects/cv/backend/node_modules/ts-node/src/index.ts',
+      function: 'createTSError',
+      line: 859,
+      method: null,
+      native: false
+    },
+    {
+      column: 19,
+      file: '/Users/null/projects/cv/backend/node_modules/ts-node/src/index.ts',
+      function: 'reportTSError',
+      line: 863,
+      method: null,
+      native: false
+    },
+    {
+      column: 36,
+      file: '/Users/null/projects/cv/backend/node_modules/ts-node/src/index.ts',
+      function: 'getOutput',
+      line: 1077,
+      method: null,
+      native: false
+    },
+    {
+      column: 41,
+      file: '/Users/null/projects/cv/backend/node_modules/ts-node/src/index.ts',
+      function: 'Object.compile',
+      line: 1433,
+      method: 'compile',
+      native: false
+    },
+    {
+      column: 30,
+      file: '/Users/null/projects/cv/backend/node_modules/ts-node/src/index.ts',
+      function: 'Module.m._compile',
+      line: 1617,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'loadTS',
+      line: 1826,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: '/Users/null/projects/cv/backend/node_modules/ts-node/src/index.ts',
+      function: 'Object.require.extensions.<computed> [as .ts]',
+      line: 1621,
+      method: 'ts]',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1469,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Function._load',
+      line: 1286,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:diagnostics_channel',
+      function: 'TracingChannel.traceSync',
+      line: 322,
+      method: 'traceSync',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'wrapModuleLoad',
+      line: 235,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1491,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 16,
+      file: 'node:internal/modules/helpers',
+      function: 'require',
+      line: 135,
+      method: null,
+      native: false
+    },
+    {
+      column: 1,
+      file: '/Users/null/projects/cv/backend/src/server.ts',
+      function: null,
+      line: 6,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1734,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 23,
+      file: '/Users/null/projects/cv/backend/node_modules/ts-node/src/index.ts',
+      function: 'Module.m._compile',
+      line: 1618,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'loadTS',
+      line: 1826,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: '/Users/null/projects/cv/backend/node_modules/ts-node/src/index.ts',
+      function: 'Object.require.extensions.<computed> [as .ts]',
+      line: 1621,
+      method: 'ts]',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1469,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Function._load',
+      line: 1286,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:diagnostics_channel',
+      function: 'TracingChannel.traceSync',
+      line: 322,
+      method: 'traceSync',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'wrapModuleLoad',
+      line: 235,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '2025-05-23 18:03:39'
+}
+{
+  error: TypeError: Missing parameter name at 1: https://git.new/pathToRegexpError
+      at name (/Users/null/projects/cv/backend/node_modules/path-to-regexp/src/index.ts:153:13)
+      at lexer (/Users/null/projects/cv/backend/node_modules/path-to-regexp/src/index.ts:171:21)
+      at lexer.next (<anonymous>)
+      at Iter.peek (/Users/null/projects/cv/backend/node_modules/path-to-regexp/src/index.ts:188:32)
+      at Iter.tryConsume (/Users/null/projects/cv/backend/node_modules/path-to-regexp/src/index.ts:195:24)
+      at Iter.text (/Users/null/projects/cv/backend/node_modules/path-to-regexp/src/index.ts:213:26)
+      at consume (/Users/null/projects/cv/backend/node_modules/path-to-regexp/src/index.ts:285:23)
+      at parse (/Users/null/projects/cv/backend/node_modules/path-to-regexp/src/index.ts:320:18)
+      at /Users/null/projects/cv/backend/node_modules/path-to-regexp/src/index.ts:503:40
+      at Array.map (<anonymous>),
+  level: 'error',
+  message: 'uncaughtException: Missing parameter name at 1: https://git.new/pathToRegexpError\n' +
+    'TypeError: Missing parameter name at 1: https://git.new/pathToRegexpError\n' +
+    '    at name (/Users/null/projects/cv/backend/node_modules/path-to-regexp/src/index.ts:153:13)\n' +
+    '    at lexer (/Users/null/projects/cv/backend/node_modules/path-to-regexp/src/index.ts:171:21)\n' +
+    '    at lexer.next (<anonymous>)\n' +
+    '    at Iter.peek (/Users/null/projects/cv/backend/node_modules/path-to-regexp/src/index.ts:188:32)\n' +
+    '    at Iter.tryConsume (/Users/null/projects/cv/backend/node_modules/path-to-regexp/src/index.ts:195:24)\n' +
+    '    at Iter.text (/Users/null/projects/cv/backend/node_modules/path-to-regexp/src/index.ts:213:26)\n' +
+    '    at consume (/Users/null/projects/cv/backend/node_modules/path-to-regexp/src/index.ts:285:23)\n' +
+    '    at parse (/Users/null/projects/cv/backend/node_modules/path-to-regexp/src/index.ts:320:18)\n' +
+    '    at /Users/null/projects/cv/backend/node_modules/path-to-regexp/src/index.ts:503:40\n' +
+    '    at Array.map (<anonymous>)',
+  stack: 'TypeError: Missing parameter name at 1: https://git.new/pathToRegexpError\n' +
+    '    at name (/Users/null/projects/cv/backend/node_modules/path-to-regexp/src/index.ts:153:13)\n' +
+    '    at lexer (/Users/null/projects/cv/backend/node_modules/path-to-regexp/src/index.ts:171:21)\n' +
+    '    at lexer.next (<anonymous>)\n' +
+    '    at Iter.peek (/Users/null/projects/cv/backend/node_modules/path-to-regexp/src/index.ts:188:32)\n' +
+    '    at Iter.tryConsume (/Users/null/projects/cv/backend/node_modules/path-to-regexp/src/index.ts:195:24)\n' +
+    '    at Iter.text (/Users/null/projects/cv/backend/node_modules/path-to-regexp/src/index.ts:213:26)\n' +
+    '    at consume (/Users/null/projects/cv/backend/node_modules/path-to-regexp/src/index.ts:285:23)\n' +
+    '    at parse (/Users/null/projects/cv/backend/node_modules/path-to-regexp/src/index.ts:320:18)\n' +
+    '    at /Users/null/projects/cv/backend/node_modules/path-to-regexp/src/index.ts:503:40\n' +
+    '    at Array.map (<anonymous>)',
+  exception: true,
+  date: 'Fri May 23 2025 18:48:22 GMT+0700 (Indochina Time)',
+  process: {
+    pid: 47605,
+    uid: 501,
+    gid: 20,
+    cwd: '/Users/null/projects/cv/backend',
+    execPath: '/opt/homebrew/Cellar/node/23.10.0_1/bin/node',
+    version: 'v23.10.0',
+    argv: [
+      '/Users/null/projects/cv/backend/node_modules/.bin/ts-node',
+      '/Users/null/projects/cv/backend/src/server.ts'
+    ],
+    memoryUsage: {
+      rss: 264028160,
+      heapTotal: 203898880,
+      heapUsed: 181154744,
+      external: 8273614,
+      arrayBuffers: 5125462
+    }
+  },
+  os: {
+    loadavg: [ 5.43994140625, 5.09814453125, 4.1240234375 ],
+    uptime: 1545573
+  },
+  trace: [
+    {
+      column: 13,
+      file: '/Users/null/projects/cv/backend/node_modules/path-to-regexp/src/index.ts',
+      function: 'name',
+      line: 153,
+      method: null,
+      native: false
+    },
+    {
+      column: 21,
+      file: '/Users/null/projects/cv/backend/node_modules/path-to-regexp/src/index.ts',
+      function: 'lexer',
+      line: 171,
+      method: null,
+      native: false
+    },
+    {
+      column: null,
+      file: null,
+      function: 'lexer.next',
+      line: null,
+      method: 'next',
+      native: false
+    },
+    {
+      column: 32,
+      file: '/Users/null/projects/cv/backend/node_modules/path-to-regexp/src/index.ts',
+      function: 'Iter.peek',
+      line: 188,
+      method: 'peek',
+      native: false
+    },
+    {
+      column: 24,
+      file: '/Users/null/projects/cv/backend/node_modules/path-to-regexp/src/index.ts',
+      function: 'Iter.tryConsume',
+      line: 195,
+      method: 'tryConsume',
+      native: false
+    },
+    {
+      column: 26,
+      file: '/Users/null/projects/cv/backend/node_modules/path-to-regexp/src/index.ts',
+      function: 'Iter.text',
+      line: 213,
+      method: 'text',
+      native: false
+    },
+    {
+      column: 23,
+      file: '/Users/null/projects/cv/backend/node_modules/path-to-regexp/src/index.ts',
+      function: 'consume',
+      line: 285,
+      method: null,
+      native: false
+    },
+    {
+      column: 18,
+      file: '/Users/null/projects/cv/backend/node_modules/path-to-regexp/src/index.ts',
+      function: 'parse',
+      line: 320,
+      method: null,
+      native: false
+    },
+    {
+      column: 40,
+      file: '/Users/null/projects/cv/backend/node_modules/path-to-regexp/src/index.ts',
+      function: null,
+      line: 503,
+      method: null,
+      native: false
+    },
+    {
+      column: null,
+      file: null,
+      function: 'Array.map',
+      line: null,
+      method: 'map',
+      native: false
+    }
+  ],
+  timestamp: '2025-05-23 18:48:22'
+}
+{
+  error: TypeError: Missing parameter name at 1: https://git.new/pathToRegexpError
+      at name (/Users/null/projects/cv/backend/node_modules/path-to-regexp/src/index.ts:153:13)
+      at lexer (/Users/null/projects/cv/backend/node_modules/path-to-regexp/src/index.ts:171:21)
+      at lexer.next (<anonymous>)
+      at Iter.peek (/Users/null/projects/cv/backend/node_modules/path-to-regexp/src/index.ts:188:32)
+      at Iter.tryConsume (/Users/null/projects/cv/backend/node_modules/path-to-regexp/src/index.ts:195:24)
+      at Iter.text (/Users/null/projects/cv/backend/node_modules/path-to-regexp/src/index.ts:213:26)
+      at consume (/Users/null/projects/cv/backend/node_modules/path-to-regexp/src/index.ts:285:23)
+      at parse (/Users/null/projects/cv/backend/node_modules/path-to-regexp/src/index.ts:320:18)
+      at /Users/null/projects/cv/backend/node_modules/path-to-regexp/src/index.ts:503:40
+      at Array.map (<anonymous>),
+  level: 'error',
+  message: 'uncaughtException: Missing parameter name at 1: https://git.new/pathToRegexpError\n' +
+    'TypeError: Missing parameter name at 1: https://git.new/pathToRegexpError\n' +
+    '    at name (/Users/null/projects/cv/backend/node_modules/path-to-regexp/src/index.ts:153:13)\n' +
+    '    at lexer (/Users/null/projects/cv/backend/node_modules/path-to-regexp/src/index.ts:171:21)\n' +
+    '    at lexer.next (<anonymous>)\n' +
+    '    at Iter.peek (/Users/null/projects/cv/backend/node_modules/path-to-regexp/src/index.ts:188:32)\n' +
+    '    at Iter.tryConsume (/Users/null/projects/cv/backend/node_modules/path-to-regexp/src/index.ts:195:24)\n' +
+    '    at Iter.text (/Users/null/projects/cv/backend/node_modules/path-to-regexp/src/index.ts:213:26)\n' +
+    '    at consume (/Users/null/projects/cv/backend/node_modules/path-to-regexp/src/index.ts:285:23)\n' +
+    '    at parse (/Users/null/projects/cv/backend/node_modules/path-to-regexp/src/index.ts:320:18)\n' +
+    '    at /Users/null/projects/cv/backend/node_modules/path-to-regexp/src/index.ts:503:40\n' +
+    '    at Array.map (<anonymous>)',
+  stack: 'TypeError: Missing parameter name at 1: https://git.new/pathToRegexpError\n' +
+    '    at name (/Users/null/projects/cv/backend/node_modules/path-to-regexp/src/index.ts:153:13)\n' +
+    '    at lexer (/Users/null/projects/cv/backend/node_modules/path-to-regexp/src/index.ts:171:21)\n' +
+    '    at lexer.next (<anonymous>)\n' +
+    '    at Iter.peek (/Users/null/projects/cv/backend/node_modules/path-to-regexp/src/index.ts:188:32)\n' +
+    '    at Iter.tryConsume (/Users/null/projects/cv/backend/node_modules/path-to-regexp/src/index.ts:195:24)\n' +
+    '    at Iter.text (/Users/null/projects/cv/backend/node_modules/path-to-regexp/src/index.ts:213:26)\n' +
+    '    at consume (/Users/null/projects/cv/backend/node_modules/path-to-regexp/src/index.ts:285:23)\n' +
+    '    at parse (/Users/null/projects/cv/backend/node_modules/path-to-regexp/src/index.ts:320:18)\n' +
+    '    at /Users/null/projects/cv/backend/node_modules/path-to-regexp/src/index.ts:503:40\n' +
+    '    at Array.map (<anonymous>)',
+  exception: true,
+  date: 'Fri May 23 2025 18:52:40 GMT+0700 (Indochina Time)',
+  process: {
+    pid: 47962,
+    uid: 501,
+    gid: 20,
+    cwd: '/Users/null/projects/cv/backend',
+    execPath: '/opt/homebrew/Cellar/node/23.10.0_1/bin/node',
+    version: 'v23.10.0',
+    argv: [
+      '/Users/null/projects/cv/backend/node_modules/.bin/ts-node',
+      '/Users/null/projects/cv/backend/src/server.ts'
+    ],
+    memoryUsage: {
+      rss: 269221888,
+      heapTotal: 203898880,
+      heapUsed: 181507240,
+      external: 8273502,
+      arrayBuffers: 5125350
+    }
+  },
+  os: {
+    loadavg: [ 3.9560546875, 4.56103515625, 4.1337890625 ],
+    uptime: 1545831
+  },
+  trace: [
+    {
+      column: 13,
+      file: '/Users/null/projects/cv/backend/node_modules/path-to-regexp/src/index.ts',
+      function: 'name',
+      line: 153,
+      method: null,
+      native: false
+    },
+    {
+      column: 21,
+      file: '/Users/null/projects/cv/backend/node_modules/path-to-regexp/src/index.ts',
+      function: 'lexer',
+      line: 171,
+      method: null,
+      native: false
+    },
+    {
+      column: null,
+      file: null,
+      function: 'lexer.next',
+      line: null,
+      method: 'next',
+      native: false
+    },
+    {
+      column: 32,
+      file: '/Users/null/projects/cv/backend/node_modules/path-to-regexp/src/index.ts',
+      function: 'Iter.peek',
+      line: 188,
+      method: 'peek',
+      native: false
+    },
+    {
+      column: 24,
+      file: '/Users/null/projects/cv/backend/node_modules/path-to-regexp/src/index.ts',
+      function: 'Iter.tryConsume',
+      line: 195,
+      method: 'tryConsume',
+      native: false
+    },
+    {
+      column: 26,
+      file: '/Users/null/projects/cv/backend/node_modules/path-to-regexp/src/index.ts',
+      function: 'Iter.text',
+      line: 213,
+      method: 'text',
+      native: false
+    },
+    {
+      column: 23,
+      file: '/Users/null/projects/cv/backend/node_modules/path-to-regexp/src/index.ts',
+      function: 'consume',
+      line: 285,
+      method: null,
+      native: false
+    },
+    {
+      column: 18,
+      file: '/Users/null/projects/cv/backend/node_modules/path-to-regexp/src/index.ts',
+      function: 'parse',
+      line: 320,
+      method: null,
+      native: false
+    },
+    {
+      column: 40,
+      file: '/Users/null/projects/cv/backend/node_modules/path-to-regexp/src/index.ts',
+      function: null,
+      line: 503,
+      method: null,
+      native: false
+    },
+    {
+      column: null,
+      file: null,
+      function: 'Array.map',
+      line: null,
+      method: 'map',
+      native: false
+    }
+  ],
+  timestamp: '2025-05-23 18:52:40'
+}
+{
+  error: TypeError: Missing parameter name at 1: https://git.new/pathToRegexpError
+      at name (/Users/null/projects/cv/backend/node_modules/path-to-regexp/src/index.ts:153:13)
+      at lexer (/Users/null/projects/cv/backend/node_modules/path-to-regexp/src/index.ts:171:21)
+      at lexer.next (<anonymous>)
+      at Iter.peek (/Users/null/projects/cv/backend/node_modules/path-to-regexp/src/index.ts:188:32)
+      at Iter.tryConsume (/Users/null/projects/cv/backend/node_modules/path-to-regexp/src/index.ts:195:24)
+      at Iter.text (/Users/null/projects/cv/backend/node_modules/path-to-regexp/src/index.ts:213:26)
+      at consume (/Users/null/projects/cv/backend/node_modules/path-to-regexp/src/index.ts:285:23)
+      at parse (/Users/null/projects/cv/backend/node_modules/path-to-regexp/src/index.ts:320:18)
+      at /Users/null/projects/cv/backend/node_modules/path-to-regexp/src/index.ts:503:40
+      at Array.map (<anonymous>),
+  level: 'error',
+  message: 'uncaughtException: Missing parameter name at 1: https://git.new/pathToRegexpError\n' +
+    'TypeError: Missing parameter name at 1: https://git.new/pathToRegexpError\n' +
+    '    at name (/Users/null/projects/cv/backend/node_modules/path-to-regexp/src/index.ts:153:13)\n' +
+    '    at lexer (/Users/null/projects/cv/backend/node_modules/path-to-regexp/src/index.ts:171:21)\n' +
+    '    at lexer.next (<anonymous>)\n' +
+    '    at Iter.peek (/Users/null/projects/cv/backend/node_modules/path-to-regexp/src/index.ts:188:32)\n' +
+    '    at Iter.tryConsume (/Users/null/projects/cv/backend/node_modules/path-to-regexp/src/index.ts:195:24)\n' +
+    '    at Iter.text (/Users/null/projects/cv/backend/node_modules/path-to-regexp/src/index.ts:213:26)\n' +
+    '    at consume (/Users/null/projects/cv/backend/node_modules/path-to-regexp/src/index.ts:285:23)\n' +
+    '    at parse (/Users/null/projects/cv/backend/node_modules/path-to-regexp/src/index.ts:320:18)\n' +
+    '    at /Users/null/projects/cv/backend/node_modules/path-to-regexp/src/index.ts:503:40\n' +
+    '    at Array.map (<anonymous>)',
+  stack: 'TypeError: Missing parameter name at 1: https://git.new/pathToRegexpError\n' +
+    '    at name (/Users/null/projects/cv/backend/node_modules/path-to-regexp/src/index.ts:153:13)\n' +
+    '    at lexer (/Users/null/projects/cv/backend/node_modules/path-to-regexp/src/index.ts:171:21)\n' +
+    '    at lexer.next (<anonymous>)\n' +
+    '    at Iter.peek (/Users/null/projects/cv/backend/node_modules/path-to-regexp/src/index.ts:188:32)\n' +
+    '    at Iter.tryConsume (/Users/null/projects/cv/backend/node_modules/path-to-regexp/src/index.ts:195:24)\n' +
+    '    at Iter.text (/Users/null/projects/cv/backend/node_modules/path-to-regexp/src/index.ts:213:26)\n' +
+    '    at consume (/Users/null/projects/cv/backend/node_modules/path-to-regexp/src/index.ts:285:23)\n' +
+    '    at parse (/Users/null/projects/cv/backend/node_modules/path-to-regexp/src/index.ts:320:18)\n' +
+    '    at /Users/null/projects/cv/backend/node_modules/path-to-regexp/src/index.ts:503:40\n' +
+    '    at Array.map (<anonymous>)',
+  exception: true,
+  date: 'Fri May 23 2025 18:58:41 GMT+0700 (Indochina Time)',
+  process: {
+    pid: 48319,
+    uid: 501,
+    gid: 20,
+    cwd: '/Users/null/projects/cv/backend',
+    execPath: '/opt/homebrew/Cellar/node/23.10.0_1/bin/node',
+    version: 'v23.10.0',
+    argv: [
+      '/Users/null/projects/cv/backend/node_modules/.bin/ts-node',
+      '/Users/null/projects/cv/backend/src/server.ts'
+    ],
+    memoryUsage: {
+      rss: 270106624,
+      heapTotal: 204161024,
+      heapUsed: 181488800,
+      external: 8273446,
+      arrayBuffers: 5125294
+    }
+  },
+  os: {
+    loadavg: [ 4.1787109375, 3.626953125, 3.7451171875 ],
+    uptime: 1546192
+  },
+  trace: [
+    {
+      column: 13,
+      file: '/Users/null/projects/cv/backend/node_modules/path-to-regexp/src/index.ts',
+      function: 'name',
+      line: 153,
+      method: null,
+      native: false
+    },
+    {
+      column: 21,
+      file: '/Users/null/projects/cv/backend/node_modules/path-to-regexp/src/index.ts',
+      function: 'lexer',
+      line: 171,
+      method: null,
+      native: false
+    },
+    {
+      column: null,
+      file: null,
+      function: 'lexer.next',
+      line: null,
+      method: 'next',
+      native: false
+    },
+    {
+      column: 32,
+      file: '/Users/null/projects/cv/backend/node_modules/path-to-regexp/src/index.ts',
+      function: 'Iter.peek',
+      line: 188,
+      method: 'peek',
+      native: false
+    },
+    {
+      column: 24,
+      file: '/Users/null/projects/cv/backend/node_modules/path-to-regexp/src/index.ts',
+      function: 'Iter.tryConsume',
+      line: 195,
+      method: 'tryConsume',
+      native: false
+    },
+    {
+      column: 26,
+      file: '/Users/null/projects/cv/backend/node_modules/path-to-regexp/src/index.ts',
+      function: 'Iter.text',
+      line: 213,
+      method: 'text',
+      native: false
+    },
+    {
+      column: 23,
+      file: '/Users/null/projects/cv/backend/node_modules/path-to-regexp/src/index.ts',
+      function: 'consume',
+      line: 285,
+      method: null,
+      native: false
+    },
+    {
+      column: 18,
+      file: '/Users/null/projects/cv/backend/node_modules/path-to-regexp/src/index.ts',
+      function: 'parse',
+      line: 320,
+      method: null,
+      native: false
+    },
+    {
+      column: 40,
+      file: '/Users/null/projects/cv/backend/node_modules/path-to-regexp/src/index.ts',
+      function: null,
+      line: 503,
+      method: null,
+      native: false
+    },
+    {
+      column: null,
+      file: null,
+      function: 'Array.map',
+      line: null,
+      method: 'map',
+      native: false
+    }
+  ],
+  timestamp: '2025-05-23 18:58:41'
+}
+{
+  error: TypeError: Missing parameter name at 1: https://git.new/pathToRegexpError
+      at name (/Users/null/projects/cv/backend/node_modules/path-to-regexp/src/index.ts:153:13)
+      at lexer (/Users/null/projects/cv/backend/node_modules/path-to-regexp/src/index.ts:171:21)
+      at lexer.next (<anonymous>)
+      at Iter.peek (/Users/null/projects/cv/backend/node_modules/path-to-regexp/src/index.ts:188:32)
+      at Iter.tryConsume (/Users/null/projects/cv/backend/node_modules/path-to-regexp/src/index.ts:195:24)
+      at Iter.text (/Users/null/projects/cv/backend/node_modules/path-to-regexp/src/index.ts:213:26)
+      at consume (/Users/null/projects/cv/backend/node_modules/path-to-regexp/src/index.ts:285:23)
+      at parse (/Users/null/projects/cv/backend/node_modules/path-to-regexp/src/index.ts:320:18)
+      at /Users/null/projects/cv/backend/node_modules/path-to-regexp/src/index.ts:503:40
+      at Array.map (<anonymous>),
+  level: 'error',
+  message: 'uncaughtException: Missing parameter name at 1: https://git.new/pathToRegexpError\n' +
+    'TypeError: Missing parameter name at 1: https://git.new/pathToRegexpError\n' +
+    '    at name (/Users/null/projects/cv/backend/node_modules/path-to-regexp/src/index.ts:153:13)\n' +
+    '    at lexer (/Users/null/projects/cv/backend/node_modules/path-to-regexp/src/index.ts:171:21)\n' +
+    '    at lexer.next (<anonymous>)\n' +
+    '    at Iter.peek (/Users/null/projects/cv/backend/node_modules/path-to-regexp/src/index.ts:188:32)\n' +
+    '    at Iter.tryConsume (/Users/null/projects/cv/backend/node_modules/path-to-regexp/src/index.ts:195:24)\n' +
+    '    at Iter.text (/Users/null/projects/cv/backend/node_modules/path-to-regexp/src/index.ts:213:26)\n' +
+    '    at consume (/Users/null/projects/cv/backend/node_modules/path-to-regexp/src/index.ts:285:23)\n' +
+    '    at parse (/Users/null/projects/cv/backend/node_modules/path-to-regexp/src/index.ts:320:18)\n' +
+    '    at /Users/null/projects/cv/backend/node_modules/path-to-regexp/src/index.ts:503:40\n' +
+    '    at Array.map (<anonymous>)',
+  stack: 'TypeError: Missing parameter name at 1: https://git.new/pathToRegexpError\n' +
+    '    at name (/Users/null/projects/cv/backend/node_modules/path-to-regexp/src/index.ts:153:13)\n' +
+    '    at lexer (/Users/null/projects/cv/backend/node_modules/path-to-regexp/src/index.ts:171:21)\n' +
+    '    at lexer.next (<anonymous>)\n' +
+    '    at Iter.peek (/Users/null/projects/cv/backend/node_modules/path-to-regexp/src/index.ts:188:32)\n' +
+    '    at Iter.tryConsume (/Users/null/projects/cv/backend/node_modules/path-to-regexp/src/index.ts:195:24)\n' +
+    '    at Iter.text (/Users/null/projects/cv/backend/node_modules/path-to-regexp/src/index.ts:213:26)\n' +
+    '    at consume (/Users/null/projects/cv/backend/node_modules/path-to-regexp/src/index.ts:285:23)\n' +
+    '    at parse (/Users/null/projects/cv/backend/node_modules/path-to-regexp/src/index.ts:320:18)\n' +
+    '    at /Users/null/projects/cv/backend/node_modules/path-to-regexp/src/index.ts:503:40\n' +
+    '    at Array.map (<anonymous>)',
+  exception: true,
+  date: 'Fri May 23 2025 18:58:59 GMT+0700 (Indochina Time)',
+  process: {
+    pid: 48408,
+    uid: 501,
+    gid: 20,
+    cwd: '/Users/null/projects/cv/backend',
+    execPath: '/opt/homebrew/Cellar/node/23.10.0_1/bin/node',
+    version: 'v23.10.0',
+    argv: [
+      '/Users/null/projects/cv/backend/node_modules/.bin/ts-node',
+      '/Users/null/projects/cv/backend/src/server.ts'
+    ],
+    memoryUsage: {
+      rss: 273252352,
+      heapTotal: 203636736,
+      heapUsed: 180909760,
+      external: 8273582,
+      arrayBuffers: 5125430
+    }
+  },
+  os: {
+    loadavg: [ 3.435546875, 3.4892578125, 3.6923828125 ],
+    uptime: 1546210
+  },
+  trace: [
+    {
+      column: 13,
+      file: '/Users/null/projects/cv/backend/node_modules/path-to-regexp/src/index.ts',
+      function: 'name',
+      line: 153,
+      method: null,
+      native: false
+    },
+    {
+      column: 21,
+      file: '/Users/null/projects/cv/backend/node_modules/path-to-regexp/src/index.ts',
+      function: 'lexer',
+      line: 171,
+      method: null,
+      native: false
+    },
+    {
+      column: null,
+      file: null,
+      function: 'lexer.next',
+      line: null,
+      method: 'next',
+      native: false
+    },
+    {
+      column: 32,
+      file: '/Users/null/projects/cv/backend/node_modules/path-to-regexp/src/index.ts',
+      function: 'Iter.peek',
+      line: 188,
+      method: 'peek',
+      native: false
+    },
+    {
+      column: 24,
+      file: '/Users/null/projects/cv/backend/node_modules/path-to-regexp/src/index.ts',
+      function: 'Iter.tryConsume',
+      line: 195,
+      method: 'tryConsume',
+      native: false
+    },
+    {
+      column: 26,
+      file: '/Users/null/projects/cv/backend/node_modules/path-to-regexp/src/index.ts',
+      function: 'Iter.text',
+      line: 213,
+      method: 'text',
+      native: false
+    },
+    {
+      column: 23,
+      file: '/Users/null/projects/cv/backend/node_modules/path-to-regexp/src/index.ts',
+      function: 'consume',
+      line: 285,
+      method: null,
+      native: false
+    },
+    {
+      column: 18,
+      file: '/Users/null/projects/cv/backend/node_modules/path-to-regexp/src/index.ts',
+      function: 'parse',
+      line: 320,
+      method: null,
+      native: false
+    },
+    {
+      column: 40,
+      file: '/Users/null/projects/cv/backend/node_modules/path-to-regexp/src/index.ts',
+      function: null,
+      line: 503,
+      method: null,
+      native: false
+    },
+    {
+      column: null,
+      file: null,
+      function: 'Array.map',
+      line: null,
+      method: 'map',
+      native: false
+    }
+  ],
+  timestamp: '2025-05-23 18:58:59'
+}
+{
+  error: TypeError: Missing parameter name at 1: https://git.new/pathToRegexpError
+      at name (/Users/null/projects/cv/backend/node_modules/path-to-regexp/dist/index.js:73:19)
+      at lexer (/Users/null/projects/cv/backend/node_modules/path-to-regexp/dist/index.js:91:27)
+      at lexer.next (<anonymous>)
+      at Iter.peek (/Users/null/projects/cv/backend/node_modules/path-to-regexp/dist/index.js:106:38)
+      at Iter.tryConsume (/Users/null/projects/cv/backend/node_modules/path-to-regexp/dist/index.js:112:28)
+      at Iter.text (/Users/null/projects/cv/backend/node_modules/path-to-regexp/dist/index.js:128:30)
+      at consume (/Users/null/projects/cv/backend/node_modules/path-to-regexp/dist/index.js:152:29)
+      at parse (/Users/null/projects/cv/backend/node_modules/path-to-regexp/dist/index.js:183:20)
+      at /Users/null/projects/cv/backend/node_modules/path-to-regexp/dist/index.js:294:74
+      at Array.map (<anonymous>),
+  level: 'error',
+  message: 'uncaughtException: Missing parameter name at 1: https://git.new/pathToRegexpError\n' +
+    'TypeError: Missing parameter name at 1: https://git.new/pathToRegexpError\n' +
+    '    at name (/Users/null/projects/cv/backend/node_modules/path-to-regexp/dist/index.js:73:19)\n' +
+    '    at lexer (/Users/null/projects/cv/backend/node_modules/path-to-regexp/dist/index.js:91:27)\n' +
+    '    at lexer.next (<anonymous>)\n' +
+    '    at Iter.peek (/Users/null/projects/cv/backend/node_modules/path-to-regexp/dist/index.js:106:38)\n' +
+    '    at Iter.tryConsume (/Users/null/projects/cv/backend/node_modules/path-to-regexp/dist/index.js:112:28)\n' +
+    '    at Iter.text (/Users/null/projects/cv/backend/node_modules/path-to-regexp/dist/index.js:128:30)\n' +
+    '    at consume (/Users/null/projects/cv/backend/node_modules/path-to-regexp/dist/index.js:152:29)\n' +
+    '    at parse (/Users/null/projects/cv/backend/node_modules/path-to-regexp/dist/index.js:183:20)\n' +
+    '    at /Users/null/projects/cv/backend/node_modules/path-to-regexp/dist/index.js:294:74\n' +
+    '    at Array.map (<anonymous>)',
+  stack: 'TypeError: Missing parameter name at 1: https://git.new/pathToRegexpError\n' +
+    '    at name (/Users/null/projects/cv/backend/node_modules/path-to-regexp/dist/index.js:73:19)\n' +
+    '    at lexer (/Users/null/projects/cv/backend/node_modules/path-to-regexp/dist/index.js:91:27)\n' +
+    '    at lexer.next (<anonymous>)\n' +
+    '    at Iter.peek (/Users/null/projects/cv/backend/node_modules/path-to-regexp/dist/index.js:106:38)\n' +
+    '    at Iter.tryConsume (/Users/null/projects/cv/backend/node_modules/path-to-regexp/dist/index.js:112:28)\n' +
+    '    at Iter.text (/Users/null/projects/cv/backend/node_modules/path-to-regexp/dist/index.js:128:30)\n' +
+    '    at consume (/Users/null/projects/cv/backend/node_modules/path-to-regexp/dist/index.js:152:29)\n' +
+    '    at parse (/Users/null/projects/cv/backend/node_modules/path-to-regexp/dist/index.js:183:20)\n' +
+    '    at /Users/null/projects/cv/backend/node_modules/path-to-regexp/dist/index.js:294:74\n' +
+    '    at Array.map (<anonymous>)',
+  exception: true,
+  date: 'Fri May 23 2025 19:01:04 GMT+0700 (Indochina Time)',
+  process: {
+    pid: 48585,
+    uid: 501,
+    gid: 20,
+    cwd: '/Users/null/projects/cv/backend',
+    execPath: '/opt/homebrew/Cellar/node/23.10.0_1/bin/node',
+    version: 'v23.10.0',
+    argv: [
+      '/opt/homebrew/Cellar/node/23.10.0_1/bin/node',
+      '/Users/null/projects/cv/backend/dist/server.js'
+    ],
+    memoryUsage: {
+      rss: 71401472,
+      heapTotal: 33898496,
+      heapUsed: 16396744,
+      external: 2280461,
+      arrayBuffers: 18891
+    }
+  },
+  os: {
+    loadavg: [ 3.17626953125, 3.43310546875, 3.64111328125 ],
+    uptime: 1546335
+  },
+  trace: [
+    {
+      column: 19,
+      file: '/Users/null/projects/cv/backend/node_modules/path-to-regexp/dist/index.js',
+      function: 'name',
+      line: 73,
+      method: null,
+      native: false
+    },
+    {
+      column: 27,
+      file: '/Users/null/projects/cv/backend/node_modules/path-to-regexp/dist/index.js',
+      function: 'lexer',
+      line: 91,
+      method: null,
+      native: false
+    },
+    {
+      column: null,
+      file: null,
+      function: 'lexer.next',
+      line: null,
+      method: 'next',
+      native: false
+    },
+    {
+      column: 38,
+      file: '/Users/null/projects/cv/backend/node_modules/path-to-regexp/dist/index.js',
+      function: 'Iter.peek',
+      line: 106,
+      method: 'peek',
+      native: false
+    },
+    {
+      column: 28,
+      file: '/Users/null/projects/cv/backend/node_modules/path-to-regexp/dist/index.js',
+      function: 'Iter.tryConsume',
+      line: 112,
+      method: 'tryConsume',
+      native: false
+    },
+    {
+      column: 30,
+      file: '/Users/null/projects/cv/backend/node_modules/path-to-regexp/dist/index.js',
+      function: 'Iter.text',
+      line: 128,
+      method: 'text',
+      native: false
+    },
+    {
+      column: 29,
+      file: '/Users/null/projects/cv/backend/node_modules/path-to-regexp/dist/index.js',
+      function: 'consume',
+      line: 152,
+      method: null,
+      native: false
+    },
+    {
+      column: 20,
+      file: '/Users/null/projects/cv/backend/node_modules/path-to-regexp/dist/index.js',
+      function: 'parse',
+      line: 183,
+      method: null,
+      native: false
+    },
+    {
+      column: 74,
+      file: '/Users/null/projects/cv/backend/node_modules/path-to-regexp/dist/index.js',
+      function: null,
+      line: 294,
+      method: null,
+      native: false
+    },
+    {
+      column: null,
+      file: null,
+      function: 'Array.map',
+      line: null,
+      method: 'map',
+      native: false
+    }
+  ],
+  timestamp: '2025-05-23 19:01:04'
+}
+{
+  error: TypeError: Missing parameter name at 1: https://git.new/pathToRegexpError
+      at name (/Users/null/projects/cv/backend/node_modules/path-to-regexp/dist/index.js:73:19)
+      at lexer (/Users/null/projects/cv/backend/node_modules/path-to-regexp/dist/index.js:91:27)
+      at lexer.next (<anonymous>)
+      at Iter.peek (/Users/null/projects/cv/backend/node_modules/path-to-regexp/dist/index.js:106:38)
+      at Iter.tryConsume (/Users/null/projects/cv/backend/node_modules/path-to-regexp/dist/index.js:112:28)
+      at Iter.text (/Users/null/projects/cv/backend/node_modules/path-to-regexp/dist/index.js:128:30)
+      at consume (/Users/null/projects/cv/backend/node_modules/path-to-regexp/dist/index.js:152:29)
+      at parse (/Users/null/projects/cv/backend/node_modules/path-to-regexp/dist/index.js:183:20)
+      at /Users/null/projects/cv/backend/node_modules/path-to-regexp/dist/index.js:294:74
+      at Array.map (<anonymous>),
+  level: 'error',
+  message: 'uncaughtException: Missing parameter name at 1: https://git.new/pathToRegexpError\n' +
+    'TypeError: Missing parameter name at 1: https://git.new/pathToRegexpError\n' +
+    '    at name (/Users/null/projects/cv/backend/node_modules/path-to-regexp/dist/index.js:73:19)\n' +
+    '    at lexer (/Users/null/projects/cv/backend/node_modules/path-to-regexp/dist/index.js:91:27)\n' +
+    '    at lexer.next (<anonymous>)\n' +
+    '    at Iter.peek (/Users/null/projects/cv/backend/node_modules/path-to-regexp/dist/index.js:106:38)\n' +
+    '    at Iter.tryConsume (/Users/null/projects/cv/backend/node_modules/path-to-regexp/dist/index.js:112:28)\n' +
+    '    at Iter.text (/Users/null/projects/cv/backend/node_modules/path-to-regexp/dist/index.js:128:30)\n' +
+    '    at consume (/Users/null/projects/cv/backend/node_modules/path-to-regexp/dist/index.js:152:29)\n' +
+    '    at parse (/Users/null/projects/cv/backend/node_modules/path-to-regexp/dist/index.js:183:20)\n' +
+    '    at /Users/null/projects/cv/backend/node_modules/path-to-regexp/dist/index.js:294:74\n' +
+    '    at Array.map (<anonymous>)',
+  stack: 'TypeError: Missing parameter name at 1: https://git.new/pathToRegexpError\n' +
+    '    at name (/Users/null/projects/cv/backend/node_modules/path-to-regexp/dist/index.js:73:19)\n' +
+    '    at lexer (/Users/null/projects/cv/backend/node_modules/path-to-regexp/dist/index.js:91:27)\n' +
+    '    at lexer.next (<anonymous>)\n' +
+    '    at Iter.peek (/Users/null/projects/cv/backend/node_modules/path-to-regexp/dist/index.js:106:38)\n' +
+    '    at Iter.tryConsume (/Users/null/projects/cv/backend/node_modules/path-to-regexp/dist/index.js:112:28)\n' +
+    '    at Iter.text (/Users/null/projects/cv/backend/node_modules/path-to-regexp/dist/index.js:128:30)\n' +
+    '    at consume (/Users/null/projects/cv/backend/node_modules/path-to-regexp/dist/index.js:152:29)\n' +
+    '    at parse (/Users/null/projects/cv/backend/node_modules/path-to-regexp/dist/index.js:183:20)\n' +
+    '    at /Users/null/projects/cv/backend/node_modules/path-to-regexp/dist/index.js:294:74\n' +
+    '    at Array.map (<anonymous>)',
+  exception: true,
+  date: 'Fri May 23 2025 19:01:09 GMT+0700 (Indochina Time)',
+  process: {
+    pid: 48618,
+    uid: 501,
+    gid: 20,
+    cwd: '/Users/null/projects/cv/backend',
+    execPath: '/opt/homebrew/Cellar/node/23.10.0_1/bin/node',
+    version: 'v23.10.0',
+    argv: [
+      '/opt/homebrew/Cellar/node/23.10.0_1/bin/node',
+      '/Users/null/projects/cv/backend/dist/server.js'
+    ],
+    memoryUsage: {
+      rss: 70991872,
+      heapTotal: 34160640,
+      heapUsed: 16173888,
+      external: 2280461,
+      arrayBuffers: 18891
+    }
+  },
+  os: {
+    loadavg: [ 3.162109375, 3.42578125, 3.63720703125 ],
+    uptime: 1546340
+  },
+  trace: [
+    {
+      column: 19,
+      file: '/Users/null/projects/cv/backend/node_modules/path-to-regexp/dist/index.js',
+      function: 'name',
+      line: 73,
+      method: null,
+      native: false
+    },
+    {
+      column: 27,
+      file: '/Users/null/projects/cv/backend/node_modules/path-to-regexp/dist/index.js',
+      function: 'lexer',
+      line: 91,
+      method: null,
+      native: false
+    },
+    {
+      column: null,
+      file: null,
+      function: 'lexer.next',
+      line: null,
+      method: 'next',
+      native: false
+    },
+    {
+      column: 38,
+      file: '/Users/null/projects/cv/backend/node_modules/path-to-regexp/dist/index.js',
+      function: 'Iter.peek',
+      line: 106,
+      method: 'peek',
+      native: false
+    },
+    {
+      column: 28,
+      file: '/Users/null/projects/cv/backend/node_modules/path-to-regexp/dist/index.js',
+      function: 'Iter.tryConsume',
+      line: 112,
+      method: 'tryConsume',
+      native: false
+    },
+    {
+      column: 30,
+      file: '/Users/null/projects/cv/backend/node_modules/path-to-regexp/dist/index.js',
+      function: 'Iter.text',
+      line: 128,
+      method: 'text',
+      native: false
+    },
+    {
+      column: 29,
+      file: '/Users/null/projects/cv/backend/node_modules/path-to-regexp/dist/index.js',
+      function: 'consume',
+      line: 152,
+      method: null,
+      native: false
+    },
+    {
+      column: 20,
+      file: '/Users/null/projects/cv/backend/node_modules/path-to-regexp/dist/index.js',
+      function: 'parse',
+      line: 183,
+      method: null,
+      native: false
+    },
+    {
+      column: 74,
+      file: '/Users/null/projects/cv/backend/node_modules/path-to-regexp/dist/index.js',
+      function: null,
+      line: 294,
+      method: null,
+      native: false
+    },
+    {
+      column: null,
+      file: null,
+      function: 'Array.map',
+      line: null,
+      method: 'map',
+      native: false
+    }
+  ],
+  timestamp: '2025-05-23 19:01:09'
+}
+{
+  error: TypeError: Missing parameter name at 1: https://git.new/pathToRegexpError
+      at name (/Users/null/projects/cv/backend/node_modules/path-to-regexp/dist/index.js:73:19)
+      at lexer (/Users/null/projects/cv/backend/node_modules/path-to-regexp/dist/index.js:91:27)
+      at lexer.next (<anonymous>)
+      at Iter.peek (/Users/null/projects/cv/backend/node_modules/path-to-regexp/dist/index.js:106:38)
+      at Iter.tryConsume (/Users/null/projects/cv/backend/node_modules/path-to-regexp/dist/index.js:112:28)
+      at Iter.text (/Users/null/projects/cv/backend/node_modules/path-to-regexp/dist/index.js:128:30)
+      at consume (/Users/null/projects/cv/backend/node_modules/path-to-regexp/dist/index.js:152:29)
+      at parse (/Users/null/projects/cv/backend/node_modules/path-to-regexp/dist/index.js:183:20)
+      at /Users/null/projects/cv/backend/node_modules/path-to-regexp/dist/index.js:294:74
+      at Array.map (<anonymous>),
+  level: 'error',
+  message: 'uncaughtException: Missing parameter name at 1: https://git.new/pathToRegexpError\n' +
+    'TypeError: Missing parameter name at 1: https://git.new/pathToRegexpError\n' +
+    '    at name (/Users/null/projects/cv/backend/node_modules/path-to-regexp/dist/index.js:73:19)\n' +
+    '    at lexer (/Users/null/projects/cv/backend/node_modules/path-to-regexp/dist/index.js:91:27)\n' +
+    '    at lexer.next (<anonymous>)\n' +
+    '    at Iter.peek (/Users/null/projects/cv/backend/node_modules/path-to-regexp/dist/index.js:106:38)\n' +
+    '    at Iter.tryConsume (/Users/null/projects/cv/backend/node_modules/path-to-regexp/dist/index.js:112:28)\n' +
+    '    at Iter.text (/Users/null/projects/cv/backend/node_modules/path-to-regexp/dist/index.js:128:30)\n' +
+    '    at consume (/Users/null/projects/cv/backend/node_modules/path-to-regexp/dist/index.js:152:29)\n' +
+    '    at parse (/Users/null/projects/cv/backend/node_modules/path-to-regexp/dist/index.js:183:20)\n' +
+    '    at /Users/null/projects/cv/backend/node_modules/path-to-regexp/dist/index.js:294:74\n' +
+    '    at Array.map (<anonymous>)',
+  stack: 'TypeError: Missing parameter name at 1: https://git.new/pathToRegexpError\n' +
+    '    at name (/Users/null/projects/cv/backend/node_modules/path-to-regexp/dist/index.js:73:19)\n' +
+    '    at lexer (/Users/null/projects/cv/backend/node_modules/path-to-regexp/dist/index.js:91:27)\n' +
+    '    at lexer.next (<anonymous>)\n' +
+    '    at Iter.peek (/Users/null/projects/cv/backend/node_modules/path-to-regexp/dist/index.js:106:38)\n' +
+    '    at Iter.tryConsume (/Users/null/projects/cv/backend/node_modules/path-to-regexp/dist/index.js:112:28)\n' +
+    '    at Iter.text (/Users/null/projects/cv/backend/node_modules/path-to-regexp/dist/index.js:128:30)\n' +
+    '    at consume (/Users/null/projects/cv/backend/node_modules/path-to-regexp/dist/index.js:152:29)\n' +
+    '    at parse (/Users/null/projects/cv/backend/node_modules/path-to-regexp/dist/index.js:183:20)\n' +
+    '    at /Users/null/projects/cv/backend/node_modules/path-to-regexp/dist/index.js:294:74\n' +
+    '    at Array.map (<anonymous>)',
+  exception: true,
+  date: 'Fri May 23 2025 19:01:38 GMT+0700 (Indochina Time)',
+  process: {
+    pid: 48697,
+    uid: 501,
+    gid: 20,
+    cwd: '/Users/null/projects/cv/backend',
+    execPath: '/opt/homebrew/Cellar/node/23.10.0_1/bin/node',
+    version: 'v23.10.0',
+    argv: [
+      '/opt/homebrew/Cellar/node/23.10.0_1/bin/node',
+      '/Users/null/projects/cv/backend/dist/server.js'
+    ],
+    memoryUsage: {
+      rss: 70434816,
+      heapTotal: 33898496,
+      heapUsed: 16625752,
+      external: 2280461,
+      arrayBuffers: 18891
+    }
+  },
+  os: {
+    loadavg: [ 3.3330078125, 3.45263671875, 3.640625 ],
+    uptime: 1546369
+  },
+  trace: [
+    {
+      column: 19,
+      file: '/Users/null/projects/cv/backend/node_modules/path-to-regexp/dist/index.js',
+      function: 'name',
+      line: 73,
+      method: null,
+      native: false
+    },
+    {
+      column: 27,
+      file: '/Users/null/projects/cv/backend/node_modules/path-to-regexp/dist/index.js',
+      function: 'lexer',
+      line: 91,
+      method: null,
+      native: false
+    },
+    {
+      column: null,
+      file: null,
+      function: 'lexer.next',
+      line: null,
+      method: 'next',
+      native: false
+    },
+    {
+      column: 38,
+      file: '/Users/null/projects/cv/backend/node_modules/path-to-regexp/dist/index.js',
+      function: 'Iter.peek',
+      line: 106,
+      method: 'peek',
+      native: false
+    },
+    {
+      column: 28,
+      file: '/Users/null/projects/cv/backend/node_modules/path-to-regexp/dist/index.js',
+      function: 'Iter.tryConsume',
+      line: 112,
+      method: 'tryConsume',
+      native: false
+    },
+    {
+      column: 30,
+      file: '/Users/null/projects/cv/backend/node_modules/path-to-regexp/dist/index.js',
+      function: 'Iter.text',
+      line: 128,
+      method: 'text',
+      native: false
+    },
+    {
+      column: 29,
+      file: '/Users/null/projects/cv/backend/node_modules/path-to-regexp/dist/index.js',
+      function: 'consume',
+      line: 152,
+      method: null,
+      native: false
+    },
+    {
+      column: 20,
+      file: '/Users/null/projects/cv/backend/node_modules/path-to-regexp/dist/index.js',
+      function: 'parse',
+      line: 183,
+      method: null,
+      native: false
+    },
+    {
+      column: 74,
+      file: '/Users/null/projects/cv/backend/node_modules/path-to-regexp/dist/index.js',
+      function: null,
+      line: 294,
+      method: null,
+      native: false
+    },
+    {
+      column: null,
+      file: null,
+      function: 'Array.map',
+      line: null,
+      method: 'map',
+      native: false
+    }
+  ],
+  timestamp: '2025-05-23 19:01:38'
+}
+{
+  error: TypeError: Missing parameter name at 1: https://git.new/pathToRegexpError
+      at name (/Users/null/projects/cv/backend/node_modules/path-to-regexp/dist/index.js:73:19)
+      at lexer (/Users/null/projects/cv/backend/node_modules/path-to-regexp/dist/index.js:91:27)
+      at lexer.next (<anonymous>)
+      at Iter.peek (/Users/null/projects/cv/backend/node_modules/path-to-regexp/dist/index.js:106:38)
+      at Iter.tryConsume (/Users/null/projects/cv/backend/node_modules/path-to-regexp/dist/index.js:112:28)
+      at Iter.text (/Users/null/projects/cv/backend/node_modules/path-to-regexp/dist/index.js:128:30)
+      at consume (/Users/null/projects/cv/backend/node_modules/path-to-regexp/dist/index.js:152:29)
+      at parse (/Users/null/projects/cv/backend/node_modules/path-to-regexp/dist/index.js:183:20)
+      at /Users/null/projects/cv/backend/node_modules/path-to-regexp/dist/index.js:294:74
+      at Array.map (<anonymous>),
+  level: 'error',
+  message: 'uncaughtException: Missing parameter name at 1: https://git.new/pathToRegexpError\n' +
+    'TypeError: Missing parameter name at 1: https://git.new/pathToRegexpError\n' +
+    '    at name (/Users/null/projects/cv/backend/node_modules/path-to-regexp/dist/index.js:73:19)\n' +
+    '    at lexer (/Users/null/projects/cv/backend/node_modules/path-to-regexp/dist/index.js:91:27)\n' +
+    '    at lexer.next (<anonymous>)\n' +
+    '    at Iter.peek (/Users/null/projects/cv/backend/node_modules/path-to-regexp/dist/index.js:106:38)\n' +
+    '    at Iter.tryConsume (/Users/null/projects/cv/backend/node_modules/path-to-regexp/dist/index.js:112:28)\n' +
+    '    at Iter.text (/Users/null/projects/cv/backend/node_modules/path-to-regexp/dist/index.js:128:30)\n' +
+    '    at consume (/Users/null/projects/cv/backend/node_modules/path-to-regexp/dist/index.js:152:29)\n' +
+    '    at parse (/Users/null/projects/cv/backend/node_modules/path-to-regexp/dist/index.js:183:20)\n' +
+    '    at /Users/null/projects/cv/backend/node_modules/path-to-regexp/dist/index.js:294:74\n' +
+    '    at Array.map (<anonymous>)',
+  stack: 'TypeError: Missing parameter name at 1: https://git.new/pathToRegexpError\n' +
+    '    at name (/Users/null/projects/cv/backend/node_modules/path-to-regexp/dist/index.js:73:19)\n' +
+    '    at lexer (/Users/null/projects/cv/backend/node_modules/path-to-regexp/dist/index.js:91:27)\n' +
+    '    at lexer.next (<anonymous>)\n' +
+    '    at Iter.peek (/Users/null/projects/cv/backend/node_modules/path-to-regexp/dist/index.js:106:38)\n' +
+    '    at Iter.tryConsume (/Users/null/projects/cv/backend/node_modules/path-to-regexp/dist/index.js:112:28)\n' +
+    '    at Iter.text (/Users/null/projects/cv/backend/node_modules/path-to-regexp/dist/index.js:128:30)\n' +
+    '    at consume (/Users/null/projects/cv/backend/node_modules/path-to-regexp/dist/index.js:152:29)\n' +
+    '    at parse (/Users/null/projects/cv/backend/node_modules/path-to-regexp/dist/index.js:183:20)\n' +
+    '    at /Users/null/projects/cv/backend/node_modules/path-to-regexp/dist/index.js:294:74\n' +
+    '    at Array.map (<anonymous>)',
+  exception: true,
+  date: 'Fri May 23 2025 19:02:08 GMT+0700 (Indochina Time)',
+  process: {
+    pid: 48783,
+    uid: 501,
+    gid: 20,
+    cwd: '/Users/null/projects/cv/backend',
+    execPath: '/opt/homebrew/Cellar/node/23.10.0_1/bin/node',
+    version: 'v23.10.0',
+    argv: [
+      '/opt/homebrew/Cellar/node/23.10.0_1/bin/node',
+      '/Users/null/projects/cv/backend/dist/server.js'
+    ],
+    memoryUsage: {
+      rss: 71237632,
+      heapTotal: 34160640,
+      heapUsed: 16830856,
+      external: 2280461,
+      arrayBuffers: 18891
+    }
+  },
+  os: {
+    loadavg: [ 3.51708984375, 3.46142578125, 3.634765625 ],
+    uptime: 1546399
+  },
+  trace: [
+    {
+      column: 19,
+      file: '/Users/null/projects/cv/backend/node_modules/path-to-regexp/dist/index.js',
+      function: 'name',
+      line: 73,
+      method: null,
+      native: false
+    },
+    {
+      column: 27,
+      file: '/Users/null/projects/cv/backend/node_modules/path-to-regexp/dist/index.js',
+      function: 'lexer',
+      line: 91,
+      method: null,
+      native: false
+    },
+    {
+      column: null,
+      file: null,
+      function: 'lexer.next',
+      line: null,
+      method: 'next',
+      native: false
+    },
+    {
+      column: 38,
+      file: '/Users/null/projects/cv/backend/node_modules/path-to-regexp/dist/index.js',
+      function: 'Iter.peek',
+      line: 106,
+      method: 'peek',
+      native: false
+    },
+    {
+      column: 28,
+      file: '/Users/null/projects/cv/backend/node_modules/path-to-regexp/dist/index.js',
+      function: 'Iter.tryConsume',
+      line: 112,
+      method: 'tryConsume',
+      native: false
+    },
+    {
+      column: 30,
+      file: '/Users/null/projects/cv/backend/node_modules/path-to-regexp/dist/index.js',
+      function: 'Iter.text',
+      line: 128,
+      method: 'text',
+      native: false
+    },
+    {
+      column: 29,
+      file: '/Users/null/projects/cv/backend/node_modules/path-to-regexp/dist/index.js',
+      function: 'consume',
+      line: 152,
+      method: null,
+      native: false
+    },
+    {
+      column: 20,
+      file: '/Users/null/projects/cv/backend/node_modules/path-to-regexp/dist/index.js',
+      function: 'parse',
+      line: 183,
+      method: null,
+      native: false
+    },
+    {
+      column: 74,
+      file: '/Users/null/projects/cv/backend/node_modules/path-to-regexp/dist/index.js',
+      function: null,
+      line: 294,
+      method: null,
+      native: false
+    },
+    {
+      column: null,
+      file: null,
+      function: 'Array.map',
+      line: null,
+      method: 'map',
+      native: false
+    }
+  ],
+  timestamp: '2025-05-23 19:02:08'
+}
+{
+  error: [96msrc/constants/staticMessages.ts[0m:[93m8[0m:[93m3[0m - [91merror[0m[90m TS1117: [0mAn object literal cannot have multiple properties with the same name.
+  
+  [7m8[0m   TERMS_AGREEMENT: `Храню только фингерпринт и ip, напиши да/нет`,
+  [7m [0m [91m  ~~~~~~~~~~~~~~~[0m
+  ,
+  level: 'error',
+  message: 'uncaughtException: ⨯ Unable to compile TypeScript:\n' +
+    '\x1B[96msrc/constants/staticMessages.ts\x1B[0m:\x1B[93m8\x1B[0m:\x1B[93m3\x1B[0m - \x1B[91merror\x1B[0m\x1B[90m TS1117: \x1B[0mAn object literal cannot have multiple properties with the same name.\n' +
+    '\n' +
+    '\x1B[7m8\x1B[0m   TERMS_AGREEMENT: `Храню только фингерпринт и ip, напиши да/нет`,\n' +
+    '\x1B[7m \x1B[0m \x1B[91m  ~~~~~~~~~~~~~~~\x1B[0m\n' +
+    '\n' +
+    'TSError: ⨯ Unable to compile TypeScript:\n' +
+    '\x1B[96msrc/constants/staticMessages.ts\x1B[0m:\x1B[93m8\x1B[0m:\x1B[93m3\x1B[0m - \x1B[91merror\x1B[0m\x1B[90m TS1117: \x1B[0mAn object literal cannot have multiple properties with the same name.\n' +
+    '\n' +
+    '\x1B[7m8\x1B[0m   TERMS_AGREEMENT: `Храню только фингерпринт и ip, напиши да/нет`,\n' +
+    '\x1B[7m \x1B[0m \x1B[91m  ~~~~~~~~~~~~~~~\x1B[0m\n' +
+    '\n' +
+    '    at createTSError (/Users/null/projects/cv/backend/node_modules/ts-node/src/index.ts:859:12)\n' +
+    '    at reportTSError (/Users/null/projects/cv/backend/node_modules/ts-node/src/index.ts:863:19)\n' +
+    '    at getOutput (/Users/null/projects/cv/backend/node_modules/ts-node/src/index.ts:1077:36)\n' +
+    '    at Object.compile (/Users/null/projects/cv/backend/node_modules/ts-node/src/index.ts:1433:41)\n' +
+    '    at Module.m._compile (/Users/null/projects/cv/backend/node_modules/ts-node/src/index.ts:1617:30)\n' +
+    '    at loadTS (node:internal/modules/cjs/loader:1826:10)\n' +
+    '    at Object.require.extensions.<computed> [as .ts] (/Users/null/projects/cv/backend/node_modules/ts-node/src/index.ts:1621:12)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1469:32)\n' +
+    '    at Function._load (node:internal/modules/cjs/loader:1286:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:322:14)',
+  stack: 'TSError: ⨯ Unable to compile TypeScript:\n' +
+    '\x1B[96msrc/constants/staticMessages.ts\x1B[0m:\x1B[93m8\x1B[0m:\x1B[93m3\x1B[0m - \x1B[91merror\x1B[0m\x1B[90m TS1117: \x1B[0mAn object literal cannot have multiple properties with the same name.\n' +
+    '\n' +
+    '\x1B[7m8\x1B[0m   TERMS_AGREEMENT: `Храню только фингерпринт и ip, напиши да/нет`,\n' +
+    '\x1B[7m \x1B[0m \x1B[91m  ~~~~~~~~~~~~~~~\x1B[0m\n' +
+    '\n' +
+    '    at createTSError (/Users/null/projects/cv/backend/node_modules/ts-node/src/index.ts:859:12)\n' +
+    '    at reportTSError (/Users/null/projects/cv/backend/node_modules/ts-node/src/index.ts:863:19)\n' +
+    '    at getOutput (/Users/null/projects/cv/backend/node_modules/ts-node/src/index.ts:1077:36)\n' +
+    '    at Object.compile (/Users/null/projects/cv/backend/node_modules/ts-node/src/index.ts:1433:41)\n' +
+    '    at Module.m._compile (/Users/null/projects/cv/backend/node_modules/ts-node/src/index.ts:1617:30)\n' +
+    '    at loadTS (node:internal/modules/cjs/loader:1826:10)\n' +
+    '    at Object.require.extensions.<computed> [as .ts] (/Users/null/projects/cv/backend/node_modules/ts-node/src/index.ts:1621:12)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1469:32)\n' +
+    '    at Function._load (node:internal/modules/cjs/loader:1286:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:322:14)',
+  exception: true,
+  date: 'Sat May 24 2025 23:52:03 GMT+0700 (Indochina Time)',
+  process: {
+    pid: 19912,
+    uid: 501,
+    gid: 20,
+    cwd: '/Users/null/projects/cv/backend',
+    execPath: '/opt/homebrew/Cellar/node/23.10.0_1/bin/node',
+    version: 'v23.10.0',
+    argv: [
+      '/Users/null/projects/cv/backend/node_modules/.bin/ts-node',
+      '/Users/null/projects/cv/backend/src/server.ts'
+    ],
+    memoryUsage: {
+      rss: 325746688,
+      heapTotal: 199360512,
+      heapUsed: 178929888,
+      external: 8260331,
+      arrayBuffers: 5130623
+    }
+  },
+  os: {
+    loadavg: [ 2.69384765625, 2.005859375, 1.88720703125 ],
+    uptime: 38284
+  },
+  trace: [
+    {
+      column: 12,
+      file: '/Users/null/projects/cv/backend/node_modules/ts-node/src/index.ts',
+      function: 'createTSError',
+      line: 859,
+      method: null,
+      native: false
+    },
+    {
+      column: 19,
+      file: '/Users/null/projects/cv/backend/node_modules/ts-node/src/index.ts',
+      function: 'reportTSError',
+      line: 863,
+      method: null,
+      native: false
+    },
+    {
+      column: 36,
+      file: '/Users/null/projects/cv/backend/node_modules/ts-node/src/index.ts',
+      function: 'getOutput',
+      line: 1077,
+      method: null,
+      native: false
+    },
+    {
+      column: 41,
+      file: '/Users/null/projects/cv/backend/node_modules/ts-node/src/index.ts',
+      function: 'Object.compile',
+      line: 1433,
+      method: 'compile',
+      native: false
+    },
+    {
+      column: 30,
+      file: '/Users/null/projects/cv/backend/node_modules/ts-node/src/index.ts',
+      function: 'Module.m._compile',
+      line: 1617,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'loadTS',
+      line: 1826,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: '/Users/null/projects/cv/backend/node_modules/ts-node/src/index.ts',
+      function: 'Object.require.extensions.<computed> [as .ts]',
+      line: 1621,
+      method: 'ts]',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1469,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Function._load',
+      line: 1286,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:diagnostics_channel',
+      function: 'TracingChannel.traceSync',
+      line: 322,
+      method: 'traceSync',
+      native: false
+    }
+  ],
+  timestamp: '2025-05-24 23:52:03'
+}
